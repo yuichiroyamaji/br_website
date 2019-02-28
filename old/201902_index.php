@@ -280,7 +280,7 @@ error_reporting(E_ALL);
               </div>
               <div class='col-sm-6'>
                 <table class='table table-bordered table-responsive col-sm-offset-6'>
-                  <caption class='table-caption'>2019年3月度 スケジュール</caption>
+                  <caption class='table-caption'>2019年2月度 スケジュール</caption>
                   <!-- <caption class='table-caption'>< <?php //echo date('n'); ?>月スケジュール ></caption> -->
                   <thead>
                     <tr>
@@ -289,38 +289,34 @@ error_reporting(E_ALL);
                     </tr>
                   </thead>
                   <tbody>
-<tr><td>1日(金)</td><td> 美咲</td></tr>
-<tr class='weekend'><td>2日(土)</td><td> 美咲、弓月</td></tr>
-<tr class='weekend'><td>3日(日)</td><td> 未定<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
-<tr><td>4日(月)</td><td> お休み</td></tr>
-<tr><td>5日(火)</td><td> 柘榴</td></tr>
-<tr><td>6日(水)</td><td> カナ</td></tr>
-<tr><td>7日(木)</td><td> イリヤ</td></tr>
-<tr><td>8日(金)</td><td> 美咲</td></tr>
-<tr class='weekend'><td>9日(土)</td><td> 美咲、ことみ</td></tr>
-<tr class='weekend'><td>10日(日)</td><td> 柘榴<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
-<tr><td>11日(月)</td><td> カナ</td></tr>
-<tr><td>12日(火)</td><td> イリヤ</td></tr>
-<tr><td>13日(水)</td><td> 柘榴</td></tr>
-<tr><td>14日(木)</td><td> カナ</td></tr>
-<tr><td>15日(金)</td><td> 美咲、ロキ</td></tr>
-<tr class='weekend'><td>16日(土)</td><td> 美咲、イリヤ</td></tr>
-<tr class='weekend'><td>17日(日)</td><td> カナ<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
-<tr><td>18日(月)</td><td> お休み</td></tr>
-<tr><td>19日(火)</td><td> 柘榴</td></tr>
-<tr><td>20日(水)</td><td> カナ</td></tr>
-<tr class='weekend'><td>21日(木)</td><td> 未定</td></tr>
-<tr><td>22日(金)</td><td> イリヤ</td></tr>
-<tr class='weekend'><td>23日(土)</td><td> イリヤ、ののか</td></tr>
-<tr class='weekend'><td>24日(日)</td><td> 柘榴<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
-<tr><td>25日(月)</td><td> カナ</td></tr>
-<tr><td>26日(火)</td><td> イリヤ</td></tr>
-<tr><td>27日(水)</td><td> 柘榴</td></tr>
-<tr><td>28日(木)</td><td> カナ</td></tr>
-<tr><td>29日(金)</td><td> 美咲</td></tr>
-<tr class='weekend'><td>30日(土)</td><td> 美咲、ことみ</td></tr>
-<tr class='weekend'><td>31日(日)</td><td> カナ<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
-
+                    <tr><td>1日(金)</td><td> 美咲</td></tr>
+                    <tr class='weekend'><td>2日(土)</td><td> 美咲、弓月</td></tr>
+                    <tr class='weekend'><td>3日(日)</td><td> 柘榴<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
+                    <tr><td>4日(月)</td><td> カナ</td></tr>
+                    <tr><td>5日(火)</td><td> イリヤ</td></tr>
+                    <tr><td>6日(水)</td><td> 柘榴</td></tr>
+                    <tr><td>7日(木)</td><td> カナ</td></tr>
+                    <tr><td>8日(金)</td><td> 美咲</td></tr>
+                    <tr class='weekend'><td>9日(土)</td><td> 美咲、ことみ</td></tr>
+                    <tr class='weekend'><td>10日(日)</td><td> カナ<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
+                    <tr class='weekend'><td>11日(月)</td><td> 休み</td></tr>
+                    <tr><td>12日(火)</td><td> イリヤ</td></tr>
+                    <tr><td>13日(水)</td><td> 柘榴</td></tr>
+                    <tr><td>14日(木)</td><td> カナ</td></tr>
+                    <tr><td>15日(金)</td><td> 美咲</td></tr>
+                    <tr class='weekend'><td>16日(土)</td><td> 美咲、ことみ</td></tr>
+                    <tr class='weekend'><td>17日(日)</td><td> 柘榴<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
+                    <tr><td>18日(月)</td><td> カナ</td></tr>
+                    <tr><td>19日(火)</td><td> 柘榴</td></tr>
+                    <tr><td>20日(水)</td><td> イリヤ、ロキ</td></tr>
+                    <tr><td>21日(木)</td><td> カナ</td></tr>
+                    <tr><td>22日(金)</td><td> 美咲</td></tr>
+                    <tr class='weekend'><td>23日(土)</td><td> ののか、イリヤ</td></tr>
+                    <tr class='weekend'><td>24日(日)</td><td> カナ<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
+                    <tr><td>25日(月)</td><td> 休み</td></tr>
+                    <tr><td>26日(火)</td><td> 柘榴</td></tr>
+                    <tr><td>27日(水)</td><td> 柘榴</td></tr>
+                    <tr><td>28日(木)</td><td> イリヤ</td></tr>
 
                     <!--
                     <?php
@@ -365,8 +361,6 @@ error_reporting(E_ALL);
                 <a class='twitter-timeline' data-height='600' data-border-color='red' href='https://twitter.com/13fetishbar?ref_src=twsrc%5Etfw' data-tweet-limit=''>Tweets by 13fetishbar</a> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>
               </div>
             </div>
-            <!-- Instagram部分 20190228 一時コメントアウト-->
-            <!--
             <div class='row'>
               <div><img id='instagram-logo' src='assets/images/instagram.jpg' alt='instagram_logo'/></div>
               <div class='owl-carousel text-center' data-items='5' data-pagination='false' data-navigation='false'>
@@ -401,7 +395,6 @@ error_reporting(E_ALL);
                 ?>
               </div>
             </div>
-            -->
             <!-- <div class='row'>
               <div class='owl-carousel text-center' data-items='5' data-pagination='false' data-navigation='false'>
                 <div class='owl-item'>
