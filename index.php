@@ -293,8 +293,8 @@ error_reporting(E_ALL);
 <tr class='weekend'><td>2日(土)</td><td> 美咲、弓月</td></tr>
 <tr class='weekend'><td>3日(日)</td><td> 未定<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
 <tr><td>4日(月)</td><td> お休み</td></tr>
-<tr><td>5日(火)</td><td> 柘榴</td></tr>
-<tr><td>6日(水)</td><td> カナ</td></tr>
+<tr><td>5日(火)</td><td> カナ</td></tr>
+<tr><td>6日(水)</td><td> 柘榴</td></tr>
 <tr><td>7日(木)</td><td> イリヤ</td></tr>
 <tr><td>8日(金)</td><td> 美咲</td></tr>
 <tr class='weekend'><td>9日(土)</td><td> 美咲、ことみ</td></tr>
