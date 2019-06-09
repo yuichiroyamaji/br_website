@@ -280,7 +280,7 @@ error_reporting(E_ALL);
               </div>
               <div class='col-sm-6'>
                 <table class='table table-bordered table-responsive col-sm-offset-6'>
-                  <caption class='table-caption'>2019年6月度 スケジュール</caption>
+                  <caption class='table-caption'>2019年4月度 スケジュール</caption>
                   <!-- <caption class='table-caption'>< <?php //echo date('n'); ?>月スケジュール ></caption> -->
                   <thead>
                     <tr>
@@ -289,37 +289,42 @@ error_reporting(E_ALL);
                     </tr>
                   </thead>
                   <tbody>
-                    
-<tr class='weekend'><td>1日(土)</td><td> ののか、美咲、イリヤ <span class='event_font'>!!! ののかバースデイ !!!</span></td></tr>
-<tr class='weekend'><td>2日(日)</td><td> 柘榴<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
-<tr><td>3日(月)</td><td> カーマ</td></tr>
-<tr><td>4日(火)</td><td> イリヤ</td></tr>
-<tr><td>5日(水)</td><td> 柘榴</td></tr>
-<tr><td>6日(木)</td><td> カナ</td></tr>
-<tr><td>7日(金)</td><td> 柘榴</td></tr>
-<tr class='weekend'><td>8日(土)</td><td> 美咲、ことみ</td></tr>
-<tr class='weekend'><td>9日(日)</td><td> カナ<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
-<tr><td>10日(月)</td><td> カーマ</td></tr>
-<tr><td>11日(火)</td><td> 柘榴</td></tr>
-<tr><td>12日(水)</td><td> カーマ</td></tr>
-<tr><td>13日(木)</td><td> カーマ</td></tr>
-<tr><td>14日(金)</td><td> イリヤ</td></tr>
-<tr class='weekend'><td>15日(土)</td><td> イリヤ、カーマ</td></tr>
-<tr class='weekend'><td>16日(日)</td><td> 柘榴<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
-<tr><td>17日(月)</td><td> カナ</td></tr>
-<tr><td>18日(火)</td><td> 柘榴</td></tr>
-<tr><td>19日(水)</td><td> 柘榴</td></tr>
-<tr><td>20日(木)</td><td> イリヤ</td></tr>
-<tr><td>21日(金)</td><td> カーマ</td></tr>
-<tr class='weekend'><td>22日(土)</td><td> カーマ、イリヤ</td></tr>
-<tr class='weekend'><td>23日(日)</td><td> カナ<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
-<tr><td>24日(月)</td><td> カーマ</td></tr>
-<tr><td>25日(火)</td><td> 柘榴</td></tr>
-<tr><td>26日(水)</td><td> カナ</td></tr>
-<tr><td>27日(木)</td><td> カーマ</td></tr>
-<tr><td>28日(金)</td><td> イリヤ</td></tr>
-<tr class='weekend'><td>29日(土)</td><td> 美咲、カーマ</td></tr>
-<tr class='weekend'><td>30日(日)</td><td> 柘榴<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
+                    <tr><td>1日(月)</td><td> 未定</td></tr>
+                    <tr><td>2日(火)</td><td> 柘榴</td></tr>
+                    <tr><td>3日(水)</td><td> イリヤ</td></tr>
+                    <tr><td>4日(木)</td><td> カナ</td></tr>
+                    <tr><td>5日(金)</td><td> 美咲</td></tr>
+                    <tr class='weekend'><td>6日(土)</td><td> 美咲、イリヤ<span class='event_font'>&nbsp&nbsp夏すみれ選手イベント!!</span></td></tr>
+                    <tr class='weekend'><td>7日(日)</td><td> カーマ<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
+                    <tr><td>8日(月)</td><td> カナ</td></tr>
+                    <tr><td>9日(火)</td><td> 柘榴</td></tr>
+                    <tr><td>10日(水)</td><td> イリヤ</td></tr>
+                    <tr><td>11日(木)</td><td> カーマ</td></tr>
+                    <tr><td>12日(金)</td><td> 美咲</td></tr>
+                    <tr class='weekend'><td>13日(土)</td><td> 美咲、柘榴</td></tr>
+                    <tr class='weekend'><td>14日(日)</td><td> カナ<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
+                    <tr><td>15日(月)</td><td> カーマ</td></tr>
+                    <tr><td>16日(火)</td><td> イリヤ</td></tr>
+                    <tr><td>17日(水)</td><td> 柘榴</td></tr>
+                    <tr><td>18日(木)</td><td> カナ</td></tr>
+                    <tr><td>19日(金)</td><td> カーマ</td></tr>
+                    <tr class='weekend'><td>20日(土)</td><td> 弓月、イリヤ</td></tr>
+                    <tr class='weekend'><td>21日(日)</td><td> 柘榴<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
+                    <tr><td>22日(月)</td><td> カーマ</td></tr>
+                    <tr><td>23日(火)</td><td> 柘榴</td></tr>
+                    <tr><td>24日(水)</td><td> カナ</td></tr>
+                    <tr><td>25日(木)</td><td> イリヤ</td></tr>
+                    <tr><td>26日(金)</td><td> 美咲</td></tr>
+                    <tr class='weekend'><td>27日(土)</td><td> 美咲、ことみ</td></tr>
+                    <tr class='weekend'><td>28日(日)</td><td> カナ<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
+                    <tr class='weekend'><td>29日(月)</td><td> カナ</td></tr>
+                    <tr class='weekend'><td>30日(火)</td><td> カナ</td></tr>
+                    <tr class='weekend'><td>1日(水)</td><td> カーマ</td></tr>
+                    <tr class='weekend'><td>2日(木)</td><td> ロキ、ののか</td></tr>
+                    <tr class='weekend'><td>3日(金)</td><td> 柘榴</td></tr>
+                    <tr class='weekend'><td>4日(土)</td><td> 美咲、柘榴</td></tr>
+
+
 
                     <!--
                     <?php
@@ -458,14 +463,11 @@ error_reporting(E_ALL);
               </div>
             </div>
             <!-- <p style="color:#fff; font-size:2em; text-align:center">随時更新予定！</p> -->
-            <p style="text-align:center"><img src='assets/images/event/20190601_nonoka_bd.jpg' alt='nonoka_bd_event'/></p>
-            <!-- <p style="text-align:center"><img src='assets/images/event/20190406_sumire_01.jpg' alt='sumire_event'/></p>
+            <p style="text-align:center"><img src='assets/images/event/20190406_sumire_01.jpg' alt='sumire_event'/></p>
             <p style="text-align:center"><img src='assets/images/event/20190406_sumire_02.jpg' alt='sumire_event'/></p>
             <br>
             <!-- <p style="color:#ffffff; font-size:1.5em; text-align:center">★12月より新人のトランジスタグラマーな人懐こい可愛い女の子、ロキちゃんが入店します！</p>
             <p style="text-align:center"><img src='assets/images/staff_original/roki.JPG' alt='roki'/></p> -->
-
-            <!-- もともとのサンプルコード -->
             <!-- <div class='row multi-columns-row post-columns wo-border'>
               <div class='col-sm-6 col-md-4 col-lg-4'>
                 <div class='post mb-40'>
@@ -477,9 +479,63 @@ error_reporting(E_ALL);
                   </div>
                   <div class='post-more'><a class='more-link' href='#'>Read more</a></div>
                 </div>
-              </div>              
+              </div>
+              <div class='col-sm-6 col-md-4 col-lg-4'>
+                <div class='post mb-40'>
+                  <div class='post-header font-alt'>
+                    <h2 class='post-title custom-hover'><a href='#'>★Girl_02 誕生日パーティー 8/1!!</a></h2>
+                  </div>
+                  <div class='post-entry'>
+                    <p>Girl_02の誕生日パーティーを8/1に開催します。ドレスコード有り：男性スーツ、女性ドレス</p>
+                  </div>
+                  <div class='post-more'><a class='more-link' href='#'>Read more</a></div>
+                </div>
+              </div>
+              <div class='col-sm-6 col-md-4 col-lg-4'>
+                <div class='post mb-40'>
+                  <div class='post-header font-alt'>
+                    <h2 class='post-title custom-hover'><a href='#'>★Girl_03 誕生日パーティー 9/1!!</a></h2>
+                  </div>
+                  <div class='post-entry'>
+                    <p>Girl_03の誕生日パーティーを9/1に開催します。ドレスコード有り：男性スーツ、女性ドレス</p>
+                  </div>
+                  <div class='post-more'><a class='more-link' href='#'>Read more</a></div>
+                </div>
+              </div>
+              <div class='col-sm-6 col-md-4 col-lg-4'>
+                <div class='post mb-40'>
+                  <div class='post-header font-alt'>
+                    <h2 class='post-title custom-hover'><a href='#'>★Girl_04 誕生日パーティー 10/1!!</a></h2>
+                  </div>
+                  <div class='post-entry'>
+                    <p>Girl_04の誕生日パーティーを10/1に開催します。ドレスコード有り：男性スーツ、女性ドレス</p>
+                  </div>
+                  <div class='post-more'><a class='more-link' href='#'>Read more</a></div>
+                </div>
+              </div>
+              <div class='col-sm-6 col-md-4 col-lg-4'>
+                <div class='post mb-40'>
+                  <div class='post-header font-alt'>
+                    <h2 class='post-title custom-hover'><a href='#'>★Girl_05 誕生日パーティー 11/1!!</a></h2>
+                  </div>
+                  <div class='post-entry'>
+                    <p>Girl_05の誕生日パーティーを11/1に開催します。ドレスコード有り：男性スーツ、女性ドレス</p>
+                  </div>
+                  <div class='post-more'><a class='more-link' href='#'>Read more</a></div>
+                </div>
+              </div>
+              <div class='col-sm-6 col-md-4 col-lg-4'>
+                <div class='post mb-40'>
+                  <div class='post-header font-alt'>
+                    <h2 class='post-title custom-hover'><a href='#'>★Girl_06 誕生日パーティー 12/1!!</a></h2>
+                  </div>
+                  <div class='post-entry'>
+                    <p>Girl_06の誕生日パーティーを12/1に開催します。ドレスコード有り：男性スーツ、女性ドレス</p>
+                  </div>
+                  <div class='post-more'><a class='more-link' href='#'>Read more</a></div>
+                </div>
+              </div>
             </div> -->
-
           </div>
         </section>
         <hr class='divider-w'>
