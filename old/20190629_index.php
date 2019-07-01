@@ -280,7 +280,7 @@ error_reporting(E_ALL);
               </div>
               <div class='col-sm-6'>
                 <table class='table table-bordered table-responsive col-sm-offset-6'>
-                  <caption class='table-caption'>2019年7月度 スケジュール</caption>
+                  <caption class='table-caption'>2019年6月度 スケジュール</caption>
                   <!-- <caption class='table-caption'>< <?php //echo date('n'); ?>月スケジュール ></caption> -->
                   <thead>
                     <tr>
@@ -290,29 +290,36 @@ error_reporting(E_ALL);
                   </thead>
                   <tbody>
                     
-<tr class='weekend'><td>6/29日(土)</td><td> 美咲、カーマ</td></tr>
-<tr class='weekend'><td>6/30日(日)</td><td> 柘榴<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
-<tr><td>1日(月)</td><td> カーマ</td></tr>
-<tr><td>2日(火)</td><td> 柘榴</td></tr>
-<tr><td>3日(水)</td><td> 柘榴</td></tr>
-<tr><td>4日(木)</td><td> イリヤ</td></tr>
-<tr><td>5日(金)</td><td> ことみ</td></tr>
-<tr class='weekend'><td>6日(土)</td><td> イリヤ</td></tr>
-<tr class='weekend'><td>7日(日)</td><td> 柘榴<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
-<tr><td>8日(月)</td><td> お休み</td></tr>
-<tr><td>9日(火)</td><td> 柘榴</td></tr>
-<tr><td>10日(水)</td><td> カーマ</td></tr>
-<tr><td>11日(木)</td><td> イリヤ</td></tr>
-<tr><td>12日(金)</td><td> 美咲</td></tr>
-<tr class='weekend'><td>13日(土)</td><td> 美咲、柘榴</td></tr>
-<tr class='weekend'><td>14日(日)</td><td> カナ<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
-<tr><td>15日(月)</td><td> カーマ</td></tr>
-<tr><td>16日(火)</td><td> 柘榴</td></tr>
-<tr><td>17日(水)</td><td> カーマ</td></tr>
-<tr><td>18日(木)</td><td> イリヤ</td></tr>
-<tr><td>19日(金)</td><td> 美咲</td></tr>
-<tr class='weekend'><td>20日(土)</td><td> 美咲、ことみ、柘榴、イリヤ、カーマ <span class='event_font'>!!! 美咲バースデイ !!!</span></td></tr>
-
+<tr class='weekend'><td>1日(土)</td><td> ののか、美咲、イリヤ <span class='event_font'>!!! ののかバースデイ !!!</span></td></tr>
+<tr class='weekend'><td>2日(日)</td><td> 柘榴<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
+<tr><td>3日(月)</td><td> カーマ</td></tr>
+<tr><td>4日(火)</td><td> イリヤ</td></tr>
+<tr><td>5日(水)</td><td> 柘榴</td></tr>
+<tr><td>6日(木)</td><td> カナ</td></tr>
+<tr><td>7日(金)</td><td> 柘榴</td></tr>
+<tr class='weekend'><td>8日(土)</td><td> 美咲、ことみ</td></tr>
+<tr class='weekend'><td>9日(日)</td><td> カナ<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
+<tr><td>10日(月)</td><td> カーマ</td></tr>
+<tr><td>11日(火)</td><td> 柘榴</td></tr>
+<tr><td>12日(水)</td><td> カーマ</td></tr>
+<tr><td>13日(木)</td><td> カーマ</td></tr>
+<tr><td>14日(金)</td><td> イリヤ</td></tr>
+<tr class='weekend'><td>15日(土)</td><td> イリヤ、カーマ</td></tr>
+<tr class='weekend'><td>16日(日)</td><td> 柘榴<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
+<tr><td>17日(月)</td><td> カナ</td></tr>
+<tr><td>18日(火)</td><td> 柘榴</td></tr>
+<tr><td>19日(水)</td><td> 柘榴</td></tr>
+<tr><td>20日(木)</td><td> イリヤ</td></tr>
+<tr><td>21日(金)</td><td> カーマ</td></tr>
+<tr class='weekend'><td>22日(土)</td><td> カーマ、イリヤ</td></tr>
+<tr class='weekend'><td>23日(日)</td><td> カナ<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
+<tr><td>24日(月)</td><td> カーマ</td></tr>
+<tr><td>25日(火)</td><td> 柘榴</td></tr>
+<tr><td>26日(水)</td><td> カナ</td></tr>
+<tr><td>27日(木)</td><td> カーマ</td></tr>
+<tr><td>28日(金)</td><td> イリヤ</td></tr>
+<tr class='weekend'><td>29日(土)</td><td> 美咲、カーマ</td></tr>
+<tr class='weekend'><td>30日(日)</td><td> 柘榴<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
 
                     <!--
                     <?php
