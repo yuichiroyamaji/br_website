@@ -279,9 +279,74 @@ error_reporting(E_ALL);
                 <h2 class='module-title-adj-sche'>SCHEDULE</h2>
               </div>
               <div class='col-sm-6'>
-                <table class='table table-bordered table-responsive col-sm-offset-6'>                  
-                  <?php include 'shift.html' ?>
-                </table>
+                <table class='table table-bordered table-responsive col-sm-offset-6'>
+                  <caption class='table-caption'>2019年7月度 スケジュール</caption>
+                  <!-- <caption class='table-caption'>< <?php //echo date('n'); ?>月スケジュール ></caption> -->
+                  <thead>
+                    <tr>
+                      <th width='100px'>日付</th>
+                      <th>出勤</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    
+<tr><td>1日(月)</td><td> カーマ</td></tr>
+<tr><td>2日(火)</td><td> 柘榴</td></tr>
+<tr><td>3日(水)</td><td> 柘榴</td></tr>
+<tr><td>4日(木)</td><td> イリヤ</td></tr>
+<tr><td>5日(金)</td><td> ことみ</td></tr>
+<tr class='weekend'><td>6日(土)</td><td> イリヤ</td></tr>
+<tr class='weekend'><td>7日(日)</td><td> 柘榴<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
+<tr><td>8日(月)</td><td> お休み</td></tr>
+<tr><td>9日(火)</td><td> 柘榴</td></tr>
+<tr><td>10日(水)</td><td> カーマ</td></tr>
+<tr><td>11日(木)</td><td> イリヤ</td></tr>
+<tr><td>12日(金)</td><td> 美咲</td></tr>
+<tr class='weekend'><td>13日(土)</td><td> 美咲、柘榴</td></tr>
+<tr class='weekend'><td>14日(日)</td><td> カナ<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
+<tr class='weekend'><td>15日(月)</td><td> カーマ</td></tr>
+<tr><td>16日(火)</td><td> 柘榴</td></tr>
+<tr><td>17日(水)</td><td> カーマ</td></tr>
+<tr><td>18日(木)</td><td> イリヤ</td></tr>
+<tr><td>19日(金)</td><td> 美咲</td></tr>
+<tr class='weekend'><td>20日(土)</td><td> 美咲、ことみ、柘榴、イリヤ、カーマ <span class='event_font'>!!! 美咲バースデイ !!!</span></td></tr>
+<tr class='weekend'><td>21日(日)</td><td> カーマ<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
+<tr><td>22日(月)</td><td> 休み</td></tr>
+<tr><td>23日(火)</td><td> カーマ</td></tr>
+<tr><td>24日(水)</td><td> 柘榴</td></tr>
+<tr><td>25日(木)</td><td> カーマ</td></tr>
+<tr><td>26日(金)</td><td> イリヤ</td></tr>
+<tr class='weekend'><td>27日(土)</td><td> イリヤ、カーマ</td></tr>
+<tr class='weekend'><td>28日(日)</td><td> ことみ<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
+<tr><td>29日(月)</td><td> 未定</td></tr>
+<tr><td>30日(火)</td><td> カーマ</td></tr>
+<tr><td>31日(水)</td><td> 柘榴</td></tr>
+
+
+                    <!--
+                    <?php
+                      // $week_array = [
+                      //   '日', //0
+                      //   '月', //1
+                      //   '火', //2
+                      //   '水', //3
+                      //   '木', //4
+                      //   '金', //5
+                      //   '土', //6
+                      // ];
+                      // $year = date('Y');
+                      // $month = date('n');
+                      // $last_day = substr(date('Y-m-t'), -2);
+                      // for($i=1; $i<$last_day + 1;$i++){
+                      //   $timestamp = mktime(0, 0, 0, $month, $i, $year);
+                      //   $week_num = date('w', $timestamp);
+                      //   $week = $week_array[$week_num];
+                      //   echo '<tr><td>'.$month.'/'.$i.' ('.$week.')</td><td>Girl'.$i.'</td></tr>';
+                      // }
+                    ?>
+                    -->
+                  </tbody>
+              </table>
               </div>
             </div>
           </div>
