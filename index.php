@@ -395,7 +395,7 @@ error_reporting(E_ALL);
               </div>
             </div>
             <!-- <p style="color:#fff; font-size:2em; text-align:center">随時更新予定！</p> -->
-            <p style="text-align:center"><img src='assets/images/event/20190710_misaki_db.jpg' alt='misaki_birthday_event'/></p>
+            <!-- <p style="text-align:center"><img src='assets/images/event/20190710_misaki_db.jpg' alt='misaki_birthday_event'/></p> -->
             <p style="text-align:center"><img src='assets/images/event/rainy_day_event.jpg' alt='rainy_day_event'/></p>
             <!-- <p style="text-align:center"><img src='assets/images/event/20190406_sumire_01.jpg' alt='sumire_event'/></p>
             <p style="text-align:center"><img src='assets/images/event/20190406_sumire_02.jpg' alt='sumire_event'/></p>
