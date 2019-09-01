@@ -258,14 +258,6 @@ error_reporting(E_ALL);
                   <h4 class='shop-item-title font-alt'>ロキ</h4>
                 </div>
               </div>
-              <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
-                <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/mikaeru.jpg' alt='mikaeru'/>
-                    <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
-                  </div>
-                  <h4 class='shop-item-title font-alt'>ミカエル</h4>
-                </div>
-              </div>
               <!-- <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
                 <div class='shop-item'>
                   <div class='shop-item-image'><img src='assets/images/shop/product-14.jpg' alt='Cold Garb'/>
@@ -402,9 +394,9 @@ error_reporting(E_ALL);
                 <h2 class='module-title-adj'>EVENT</h2>
               </div>
             </div>
-            <p style="color:#fff; font-size:2em; text-align:center">随時更新予定！</p>
+            <!-- <p style="color:#fff; font-size:2em; text-align:center">随時更新予定！</p> -->
             <!-- <p style="text-align:center"><img src='assets/images/event/20190710_misaki_db.jpg' alt='misaki_birthday_event'/></p> -->
-            <!-- <p style="text-align:center"><img src='assets/images/event/rainy_day_event.jpg' alt='rainy_day_event'/></p> -->
+            <p style="text-align:center"><img src='assets/images/event/rainy_day_event.jpg' alt='rainy_day_event'/></p>
             <!-- <p style="text-align:center"><img src='assets/images/event/20190406_sumire_01.jpg' alt='sumire_event'/></p>
             <p style="text-align:center"><img src='assets/images/event/20190406_sumire_02.jpg' alt='sumire_event'/></p>
             <br>
