@@ -76,7 +76,6 @@ error_reporting(E_ALL);
     <script src='assets/js/custom.js'></script>
   </head>
   <body data-spy='scroll' data-target='.onpage-navigation' data-offset='60'>
-
     <main id='main'>
       <div class='page-loader'>
         <div class='loader'>Loading...</div>
@@ -101,9 +100,7 @@ error_reporting(E_ALL);
           </div>
         </div>
       </nav>
-
       <section class='ios-click home-section home-fade home-full-height' id='home'>
-        
         <div class='hero-slider'>
           <ul class='slides'>
             <li class='bg-dark-30 bg-dark shop-page-header' style='background-image:url(&quot;assets/images/bdsm/background_logo.png&quot;);'>
@@ -132,7 +129,6 @@ error_reporting(E_ALL);
             <div class='row'>
               <div class='col-sm-6 col-sm-offset-3'>
                 <!-- <h2 class='module-title font-alt mb-0'>コンセプト</h2><br> -->
-                <div><?php var_dump(explode(',', $_SERVER['HTTP_ACCEPT_LANGUAGE'])); ?></div>
                 <h2 class='mod_title' lang='en'>ABOUT BR</h2><br>
                 <p class="capital">W</p>
                 <p class='article'>

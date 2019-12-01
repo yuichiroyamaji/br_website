@@ -14,6 +14,7 @@ error_reporting(E_ALL);
     -->
     <title>SM & Fetish Bar BR</title>
     <link rel="shortcut icon" href="assets/images/bdsm/br_logo.png" type="image/vnd.microsoft.icon">
+    <link rel="alternate" hreflang="ja" href="http://www.fetishbar-br.com/index.php" />
     <meta name="keywords" content="Japan,Osaka,Bar,fetish,bondage,bdsm,BR,night,spot">
     <meta name="description" content="SM&FetishBar BR located in Jyuso, Osaka, Japan. We offer extraordinary experiences through conversation of an unusual topics with staff ladies or other customers. Our unique and open-minded staffs with various background will welcome anyone from all over the world. Call +81 6 6885 9997 for more information">
     <!--  

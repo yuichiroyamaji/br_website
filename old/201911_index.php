@@ -1,25 +1,25 @@
 <?php
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
-?> 
+?>
 <!DOCTYPE html>
 <html lang='ja' dir='ltr'>
   <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!--  
+    <!--
     Document Title
     =============================================
     -->
     <title>SM & Fetish Bar BR</title>
-    <link rel="shortcut icon" href="assets/images/bdsm/br_logo.png" type="image/vnd.microsoft.icon">
-    <meta name="keywords" content="Japan,Osaka,Bar,fetish,bondage,bdsm,BR,night,spot">
-    <meta name="description" content="SM&FetishBar BR located in Jyuso, Osaka, Japan. We offer extraordinary experiences through conversation of an unusual topics with staff ladies or other customers. Our unique and open-minded staffs with various background will welcome anyone from all over the world. Call +81 6 6885 9997 for more information">
-    <!--  
+    <link rel="shortcut icon" href="assets/images/br_logo.png" type="image/vnd.microsoft.icon">
+    <meta name="keywords" content="大阪,SMバー,BR,十三,fetish,SM,bar,">
+    <meta name="description" content="大阪･十三(じゅうそう)にあるSM&FetishBar「BR(ビーアール)」。当店では落ち着いた雰囲気の中で非日常的な会話と交流ができるBarをコンセプトとしております。様々な嗜好を持つ個性豊かで魅力溢れる女性スタッフが皆様をお待ちしております。初心者の方や女性お一人様でのご来店も大歓迎です。電話番号06-6885-9997">
+    <!--
     Favicons
     =============================================
-    --><!-- 
+    --><!--
     <link rel='apple-touch-icon' sizes='57x57' href='assets/images/favicons/apple-icon-57x57.png'>
     <link rel='apple-touch-icon' sizes='60x60' href='assets/images/favicons/apple-icon-60x60.png'>
     <link rel='apple-touch-icon' sizes='72x72' href='assets/images/favicons/apple-icon-72x72.png'>
@@ -37,10 +37,10 @@ error_reporting(E_ALL);
     <meta name='msapplication-TileColor' content='#ffffff'>
     <meta name='msapplication-TileImage' content='assets/images/favicons/ms-icon-144x144.png'>
     <meta name='theme-color' content='#ffffff'> -->
-    <!--  
+    <!--
     Stylesheets
     =============================================
-    
+
     -->
     <!-- Default stylesheets-->
     <link href='assets/lib/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet'>
@@ -57,8 +57,8 @@ error_reporting(E_ALL);
     <link href='assets/lib/magnific-popup/dist/magnific-popup.css' rel='stylesheet'>
     <link href='assets/lib/simple-text-rotator/simpletextrotator.css' rel='stylesheet'>
     <!-- Main stylesheet and color file-->
-    <link href='assets/css/style_en.css' rel='stylesheet'>
-    <link id='color-scheme' href='./assets/css/colors/default.css' rel='stylesheet'>    
+    <link href='assets/css/style.css' rel='stylesheet'>
+    <link id='color-scheme' href='./assets/css/colors/default.css' rel='stylesheet'>
     <!--JavaScripts-->
     <script src='assets/lib/jquery/dist/jquery.js'></script>
     <script src='assets/lib/bootstrap/dist/js/bootstrap.min.js'></script>
@@ -76,7 +76,6 @@ error_reporting(E_ALL);
     <script src='assets/js/custom.js'></script>
   </head>
   <body data-spy='scroll' data-target='.onpage-navigation' data-offset='60'>
-
     <main id='main'>
       <div class='page-loader'>
         <div class='loader'>Loading...</div>
@@ -85,28 +84,26 @@ error_reporting(E_ALL);
         <div class='container'>
           <div class='navbar-header'>
             <button class='navbar-toggle' type='button' data-toggle='collapse' data-target='#custom-collapse'><span class='sr-only'>Toggle navigation</span><span class='icon-bar'></span><span class='icon-bar'></span><span class='icon-bar'></span></button>
-            <a class='navbar-brand' href='#main'><img id='shop_name' src='assets/images/bdsm/shop_name.png'></a>            
+            <a class='navbar-brand' href='#main'><img id='shop_name' src='assets/images/shop_name.png'></a>
           </div>
           <div class='collapse navbar-collapse navbar-font' id='custom-collapse'>
             <ul class='nav navbar-nav navbar-right'>
-              <li><a href='#concept'>About</a></li>
-              <li><a href='#system'>Charges</a></li>
-              <li><a href='#staff'>Staff</a></li>
-              <li><a href='#schedule'>Schedule</a></li>
-              <li><a href='#SNS'>SNS</a></li>              
-              <li><a href='#event'>Event</a></li>
-              <li><a href='#access'>Access</a></li>
+              <li><a href='#concept'>コンセプト</a></li>
+              <li><a href='#system'>システム</a></li>
+              <li><a href='#staff'>スタッフ</a></li>
+              <li><a href='#schedule'>スケジュール</a></li>
+              <li><a href='#SNS'>SNS</a></li>
+              <li><a href='#event'>イベント</a></li>
+              <li><a href='#access'>アクセス</a></li>
               <!-- onClick='alert('アクセスセクションへスクロール');' -->
             </ul>
           </div>
         </div>
       </nav>
-
       <section class='ios-click home-section home-fade home-full-height' id='home'>
-        
         <div class='hero-slider'>
           <ul class='slides'>
-            <li class='bg-dark-30 bg-dark shop-page-header' style='background-image:url(&quot;assets/images/bdsm/background_logo.png&quot;);'>
+            <li class='bg-dark-30 bg-dark shop-page-header' style='background-image:url(&quot;assets/images/background_logo.png&quot;);'>
               <!-- <div class='titan-caption'>
                 <div class='caption-content'>
                   <div class='font-alt mb-30 titan-title-size-1'>This is Titan</div>
@@ -127,46 +124,47 @@ error_reporting(E_ALL);
         </div>
       </section>
       <div class='main'>
-        <section id='about' class='ios-click module module-video bckimg-left' data-background='assets/images/bdsm/img_02.png'>
+        <section id='concept' class='ios-click module module-video bckimg-left' data-background='assets/images/img_02.png'>
           <div class='container'>
             <div class='row'>
               <div class='col-sm-6 col-sm-offset-3'>
                 <!-- <h2 class='module-title font-alt mb-0'>コンセプト</h2><br> -->
-                <div><?php var_dump(explode(',', $_SERVER['HTTP_ACCEPT_LANGUAGE'])); ?></div>
-                <h2 class='mod_title' lang='en'>ABOUT BR</h2><br>
-                <p class="capital">W</p>
+                <h2 class='mod_title' lang='en'>CONCEPT</h2><br>
                 <p class='article'>
-                  Located in Osaka, Japan over a decade, SM & Fetish Bar BR offers extraordinary experiences through unusual conversation(such as an extramarital affair, sexual habits, or even silly dirty jokes!) with attractive staff ladies or other customers. We carry a general set of bondage goods for those interested in slavery, and you might get a chance to be teased if it's your day! Although our English is just a best efforts basis, we guarantee your exhilarating memory that you will never find in an ordinary bar. <br>
-                  ※Note that we do not accept people in a drunken stupor, or with drugs. <br>
+                  FetishBar BRは落ち着いた雰囲気の中で非日常的な会話と交流ができるBarをコンセプトとしております。
+                  当店では様々な嗜好を持つ個性豊かで魅力溢れる女性スタッフが皆様をお待ちしております。
+                  初心者の方や女性お一人様でのご来店も大歓迎です。<br><br>
+                  ※極度の泥酔状態の方、薬物使用者、店内での客引き行為を目的とする同業者の方、その他当店が不適切と
+                  判断したお客様の入店はお断りさせて頂きます。
                 </p>
-                <p class='article text-right'>- Misaki, shop owner</p>
+                <p class='article text-right'>- オーナー 美咲</p>
               </div>
             </div>
           </div>
           <div class='video-player' data-property='{videoURL:'https://www.youtube.com/watch?v=EMy5krGcoOU', containment:'.module-video', startAt:0, mute:true, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}'></div>
         </section>
-        <section id='system' class='ios-click module module-video bg-dark-30 bckimg-right' data-background='assets/images/bdsm/img_04.png'>
+        <section id='system' class='ios-click module module-video bg-dark-30 bckimg-right' data-background='assets/images/img_04.png'>
           <div class='container'>
             <div class='row'>
               <div class='col-sm-6 col-sm-offset-3'>
-                <h2 class='mod_title' lang='en'>CHARGES</h2>
+                <h2 class='mod_title' lang='en'>SYSTEM</h2>
                 <table class='sys-table'>
-                  <caption class='table-caption'>&lt;Mon-Sat&gt;</caption>
-                  <tr><td>Gentlemen</td><td>4,000JPY per hour（including 1 drink)</td></tr>
-                  <tr><td>Ladies</td><td>2,000JPY until last（including 1 drink)</td></tr>
+                  <caption class='table-caption'><月～土曜></caption>
+                  <tr><td>男性</td><td>￥4,000/1時間（1ドリンク付き)</td></tr>
+                  <tr><td>女性</td><td>￥2,000/フリータイム（1ドリンク付き)</td></tr>
                 </table>
-                <p>※For Gentlemen, check per half hour (2,000JPY) can be applied after an hour.</p>
+                <p>※男性のお客様において、1時間以降は￥2,000/30分単位でご精算頂けます。</p>
                 <table class='sys-table'>
-                  <caption class='table-caption'>&lt;Sun&gt;</caption>
-                  <tr><td>Gentlemen</td><td>2,000JPY per hour</td></tr>
-                  <tr><td>Ladies</td><td>1,000JPY until last</td></tr>
+                  <caption class='table-caption'><日曜></caption>
+                  <tr><td>男性</td><td>￥2,000/1時間</td></tr>
+                  <tr><td>女性</td><td>￥1,000/フリータイム</td></tr>
                 </table>
-                <p>※Drink is not included in hourly charge on Sunday</p>
+                <p>※日曜のみセット料金にドリンクのサービスは付いておりません。</p>
                 <table class='sys-table'>
-                  <caption class='table-caption'>&lt;Drink&gt;</caption>
-                  <tr><td>All Drink</td><td>1,000JPY</td></tr>
+                  <caption class='table-caption'><ドリンク></caption>
+                  <tr><td>ALL</td><td>￥1,000</td></tr>
                 </table>
-                <p>※Champagne and sparkling wine are also available.</p>
+                <p>※シャンパン･スパークリングワインもご用意しております</p>
               </div>
             </div>
           </div>
@@ -182,66 +180,90 @@ error_reporting(E_ALL);
             <div class='row multi-columns-row'>
               <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
                 <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/bdsm/misaki.jpg' alt='misaki'/>
+                  <div class='shop-item-image'><img src='assets/images/misaki.jpg' alt='misaki'/>
                     <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
                   </div>
-                  <h4 class='shop-item-title font-alt'>Misaki</h4>
+                  <h4 class='shop-item-title font-alt'>美咲</h4>
                 </div>
               </div>
               <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
                 <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/bdsm/iriya.jpg' alt='iriya'/>
+                  <div class='shop-item-image'><img src='assets/images/iriya.jpg' alt='iriya'/>
                     <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
                   </div>
-                  <h4 class='shop-item-title font-alt'>Iriya</h4>
+                  <h4 class='shop-item-title font-alt'>イリヤ</h4>
                 </div>
               </div>
               <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
                 <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/bdsm/kana.jpg' alt='kana'/>
+                  <div class='shop-item-image'><img src='assets/images/kana.jpg' alt='kana'/>
                     <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
                   </div>
-                  <h4 class='shop-item-title font-alt'>Kana</h4>
+                  <h4 class='shop-item-title font-alt'>カナ</h4>
                 </div>
               </div>
               <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
                 <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/bdsm/zakuro.jpg' alt='zakuro'/>
+                  <div class='shop-item-image'><img src='assets/images/zakuro.jpg' alt='zakuro'/>
                     <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
                   </div>
-                  <h4 class='shop-item-title font-alt'>Zakuro</h4>
+                  <h4 class='shop-item-title font-alt'>柘榴</h4>
                 </div>
               </div>
               <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
                 <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/bdsm/kalma.jpg' alt='kalma'/>
+                  <div class='shop-item-image'><img src='assets/images/kalma.jpg' alt='kalma'/>
                     <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
                   </div>
-                  <h4 class='shop-item-title font-alt'>Kalma</h4>
+                  <h4 class='shop-item-title font-alt'>カーマ</h4>
                 </div>
               </div>
               <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
                 <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/bdsm/nonoka.jpg' alt='nonoka'/>
+                  <div class='shop-item-image'><img src='assets/images/nonoka.jpg' alt='nonoka'/>
                     <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
                   </div>
-                  <h4 class='shop-item-title font-alt'>Nonoka</h4>
+                  <h4 class='shop-item-title font-alt'>ののか</h4>
                 </div>
               </div>
               <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
                 <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/bdsm/hime.jpg' alt='yuzuki'/>
+                  <div class='shop-item-image'><img src='assets/images/kotomi.jpg' alt='kotomi'/>
                     <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
                   </div>
-                  <h4 class='shop-item-title font-alt'>Hime</h4>
+                  <h4 class='shop-item-title font-alt'>ことみ</h4>
                 </div>
               </div>
               <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
                 <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/bdsm/yuzuki.jpg' alt='yuzuki'/>
+                  <div class='shop-item-image'><img src='assets/images/hime.jpg' alt='yuzuki'/>
                     <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
                   </div>
-                  <h4 class='shop-item-title font-alt'>Yuzuki</h4>
+                  <h4 class='shop-item-title font-alt'>ヒメ</h4>
+                </div>
+              </div>
+              <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
+                <div class='shop-item'>
+                  <div class='shop-item-image'><img src='assets/images/yuzuki.jpg' alt='yuzuki'/>
+                    <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
+                  </div>
+                  <h4 class='shop-item-title font-alt'>弓月</h4>
+                </div>
+              </div>
+              <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
+                <div class='shop-item'>
+                  <div class='shop-item-image'><img src='assets/images/roki.jpg' alt='roki'/>
+                    <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
+                  </div>
+                  <h4 class='shop-item-title font-alt'>ロキ</h4>
+                </div>
+              </div>
+              <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
+                <div class='shop-item'>
+                  <div class='shop-item-image'><img src='assets/images/mikaeru.jpg' alt='mikaeru'/>
+                    <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
+                  </div>
+                  <h4 class='shop-item-title font-alt'>ミカエル</h4>
                 </div>
               </div>
               <!-- <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
@@ -265,72 +287,9 @@ error_reporting(E_ALL);
                 <h2 class='module-title-adj-sche'>SCHEDULE</h2>
               </div>
               <div class='col-sm-6'>
-                <table class='table table-bordered table-responsive col-sm-offset-6'>
-                  <caption class='table-caption'>October 2018</caption>
-                  <!-- <caption class='table-caption'>< <?php //echo date('n'); ?>月スケジュール ></caption> -->
-                  <thead>
-                    <tr>
-                      <th width='100px'>date</th>
-                      <th>staff</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr><td>1(Mon)</td><td> 柘榴</td></tr>
-                    <tr><td>2(Tue)</td><td> イリヤ</td></tr>
-                    <tr><td>3(Wed)</td><td> カナ</td></tr>
-                    <tr><td>4(Thu)</td><td> 柘榴</td></tr>
-                    <tr><td>5(Fri)</td><td> 美咲</td></tr>
-                    <tr class='weekend'><td>6日(土)</td><td> イリヤ</td></tr>
-                    <tr class='weekend'><td>7日(日)</td><td> カーマ<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
-                    <tr class='weekend'><td>8日(月)</td><td> カーマ</td></tr>
-                    <tr><td>9(火)</td><td> カナ</td></tr>
-                    <tr><td>10(水)</td><td> 未定</td></tr>
-                    <tr><td>11(木)</td><td> イリヤ</td></tr>
-                    <tr><td>12(金)</td><td> 美咲</td></tr>
-                    <tr class='weekend'><td>13日(土)</td><td> 美咲、イリヤ</td></tr>
-                    <tr class='weekend'><td>14日(日)</td><td> 柘榴<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
-                    <tr><td>15(月)</td><td> 休み</td></tr>
-                    <tr><td>16(火)</td><td> 柘榴</td></tr>
-                    <tr><td>17(水)</td><td> カナ</td></tr>
-                    <tr><td>18(木)</td><td> イリヤ</td></tr>
-                    <tr><td>19(金)</td><td> 美咲</td></tr>
-                    <tr class='weekend'><td>20日(土)</td><td> 美咲、イリヤ</td></tr>
-                    <tr class='weekend'><td>21日(日)</td><td> カナ<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
-                    <tr><td>22日(月)</td><td> 柘榴</td></tr>
-                    <tr><td>23日(火)</td><td> カーマ</td></tr>
-                    <tr><td>24日(水)</td><td> 柘榴</td></tr>
-                    <tr><td>25日(木)</td><td> イリヤ</td></tr>
-                    <tr><td>26日(金)</td><td> 美咲</td></tr>
-                    <tr class='weekend'><td>27日(土)</td><td> 柘榴、美咲、イリヤ<span class='event_font'>&nbsp&nbsp★★柘榴BirthDAY!!★★</span></td></tr>
-                    <tr class='weekend'><td>28日(日)</td><td> 柘榴<span class='event_font'>&nbsp&nbspセット料金半額DAY!</span></td></tr>
-                    <tr><td>29日(月)</td><td> 休み</td></tr>
-                    <tr><td>30日(火)</td><td> カーマ</td></tr>
-                    <tr><td>31日(水)</td><td> カナ</td></tr>
-
-                    <!--
-                    <?php
-                      // $week_array = [
-                      //   '日', //0
-                      //   '月', //1
-                      //   '火', //2
-                      //   '水', //3
-                      //   '木', //4
-                      //   '金', //5
-                      //   '土', //6
-                      // ];
-                      // $year = date('Y');
-                      // $month = date('n');
-                      // $last_day = substr(date('Y-m-t'), -2);
-                      // for($i=1; $i<$last_day + 1;$i++){
-                      //   $timestamp = mktime(0, 0, 0, $month, $i, $year);
-                      //   $week_num = date('w', $timestamp);
-                      //   $week = $week_array[$week_num];
-                      //   echo '<tr><td>'.$month.'/'.$i.' ('.$week.')</td><td>Girl'.$i.'</td></tr>';
-                      // }
-                    ?>
-                    -->
-                  </tbody>
-              </table>
+                <table class='table table-bordered table-responsive col-sm-offset-6'>                  
+                  <?php include 'shift.html' ?>
+                </table>
               </div>
             </div>
           </div>
@@ -345,13 +304,15 @@ error_reporting(E_ALL);
               </div>
             </div>
             <div class='row'>
-              <img id='twitter_logo' src='assets/images/bdsm/twitter.png' alt='twitter_logo'/>
+              <img id='twitter_logo' src='assets/images/twitter.png' alt='twitter_logo'/>
               <div id='twitter'>
                 <a class='twitter-timeline' data-height='600' data-border-color='red' href='https://twitter.com/13fetishbar?ref_src=twsrc%5Etfw' data-tweet-limit=''>Tweets by 13fetishbar</a> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>
               </div>
             </div>
+            <!-- Instagram部分 20190228 一時コメントアウト-->
+            <!--
             <div class='row'>
-              <div><img id='instagram-logo' src='assets/images/bdsm/instagram.jpg' alt='instagram_logo'/></div>
+              <div><img id='instagram-logo' src='assets/images/instagram.jpg' alt='instagram_logo'/></div>
               <div class='owl-carousel text-center' data-items='5' data-pagination='false' data-navigation='false'>
                 <?php
                   // $access_token = '7628357861.e7c7978.07309a567f8643009a56b86853d1ef14';
@@ -364,7 +325,7 @@ error_reporting(E_ALL);
                     $data_arr = $arr['data'];
                      if (count($data_arr)) {
                       //dataの数があるだけループ
-                      foreach($data_arr as $data) {                      
+                      foreach($data_arr as $data) {
                         $link = $data['link'];
                         $img = $data['images']['standard_resolution']['url'];
                         $likes = $data['likes']['count'];
@@ -384,6 +345,7 @@ error_reporting(E_ALL);
                 ?>
               </div>
             </div>
+            -->
             <!-- <div class='row'>
               <div class='owl-carousel text-center' data-items='5' data-pagination='false' data-navigation='false'>
                 <div class='owl-item'>
@@ -440,7 +402,17 @@ error_reporting(E_ALL);
                 <h2 class='module-title-adj'>EVENT</h2>
               </div>
             </div>
-            <p style="color:#fff; font-size:2em; text-align:center">随時更新予定！</p>
+            <p style="text-align:center"><img src='assets/images/event/20191026_zakuro_bd.jpg' alt='zakuro_event'/></p>
+            <!-- <p style="color:#fff; font-size:2em; text-align:center">随時更新予定！</p> -->
+            <!-- <p style="text-align:center"><img src='assets/images/event/20190710_misaki_db.jpg' alt='misaki_birthday_event'/></p> -->
+            <!-- <p style="text-align:center"><img src='assets/images/event/rainy_day_event.jpg' alt='rainy_day_event'/></p> -->
+            <!-- <p style="text-align:center"><img src='assets/images/event/20190406_sumire_01.jpg' alt='sumire_event'/></p>
+            <p style="text-align:center"><img src='assets/images/event/20190406_sumire_02.jpg' alt='sumire_event'/></p>
+            <br>
+            <!-- <p style="color:#ffffff; font-size:1.5em; text-align:center">★12月より新人のトランジスタグラマーな人懐こい可愛い女の子、ロキちゃんが入店します！</p>
+            <p style="text-align:center"><img src='assets/images/staff_original/roki.JPG' alt='roki'/></p> -->
+
+            <!-- もともとのサンプルコード -->
             <!-- <div class='row multi-columns-row post-columns wo-border'>
               <div class='col-sm-6 col-md-4 col-lg-4'>
                 <div class='post mb-40'>
@@ -452,63 +424,9 @@ error_reporting(E_ALL);
                   </div>
                   <div class='post-more'><a class='more-link' href='#'>Read more</a></div>
                 </div>
-              </div>
-              <div class='col-sm-6 col-md-4 col-lg-4'>
-                <div class='post mb-40'>
-                  <div class='post-header font-alt'>
-                    <h2 class='post-title custom-hover'><a href='#'>★Girl_02 誕生日パーティー 8/1!!</a></h2>
-                  </div>
-                  <div class='post-entry'>
-                    <p>Girl_02の誕生日パーティーを8/1に開催します。ドレスコード有り：男性スーツ、女性ドレス</p>
-                  </div>
-                  <div class='post-more'><a class='more-link' href='#'>Read more</a></div>
-                </div>
-              </div>
-              <div class='col-sm-6 col-md-4 col-lg-4'>
-                <div class='post mb-40'>
-                  <div class='post-header font-alt'>
-                    <h2 class='post-title custom-hover'><a href='#'>★Girl_03 誕生日パーティー 9/1!!</a></h2>
-                  </div>
-                  <div class='post-entry'>
-                    <p>Girl_03の誕生日パーティーを9/1に開催します。ドレスコード有り：男性スーツ、女性ドレス</p>
-                  </div>
-                  <div class='post-more'><a class='more-link' href='#'>Read more</a></div>
-                </div>
-              </div>
-              <div class='col-sm-6 col-md-4 col-lg-4'>
-                <div class='post mb-40'>
-                  <div class='post-header font-alt'>
-                    <h2 class='post-title custom-hover'><a href='#'>★Girl_04 誕生日パーティー 10/1!!</a></h2>
-                  </div>
-                  <div class='post-entry'>
-                    <p>Girl_04の誕生日パーティーを10/1に開催します。ドレスコード有り：男性スーツ、女性ドレス</p>
-                  </div>
-                  <div class='post-more'><a class='more-link' href='#'>Read more</a></div>
-                </div>
-              </div>
-              <div class='col-sm-6 col-md-4 col-lg-4'>
-                <div class='post mb-40'>
-                  <div class='post-header font-alt'>
-                    <h2 class='post-title custom-hover'><a href='#'>★Girl_05 誕生日パーティー 11/1!!</a></h2>
-                  </div>
-                  <div class='post-entry'>
-                    <p>Girl_05の誕生日パーティーを11/1に開催します。ドレスコード有り：男性スーツ、女性ドレス</p>
-                  </div>
-                  <div class='post-more'><a class='more-link' href='#'>Read more</a></div>
-                </div>
-              </div>
-              <div class='col-sm-6 col-md-4 col-lg-4'>
-                <div class='post mb-40'>
-                  <div class='post-header font-alt'>
-                    <h2 class='post-title custom-hover'><a href='#'>★Girl_06 誕生日パーティー 12/1!!</a></h2>
-                  </div>
-                  <div class='post-entry'>
-                    <p>Girl_06の誕生日パーティーを12/1に開催します。ドレスコード有り：男性スーツ、女性ドレス</p>
-                  </div>
-                  <div class='post-more'><a class='more-link' href='#'>Read more</a></div>
-                </div>
-              </div>
+              </div>              
             </div> -->
+
           </div>
         </section>
         <hr class='divider-w'>
