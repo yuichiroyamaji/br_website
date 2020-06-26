@@ -402,21 +402,25 @@ error_reporting(E_ALL);
                 <h2 class='module-title-adj'>EVENT</h2>
               </div>
             </div>
-            <!-- <p class="event_description">
+            <p class="event_description">
+              <span class="event_date">!!! 12/7(土) M男パラダイス開催 !!!</span><br>
+              我こそはというM男さん、M男さんを虐めたいS嬢さん、大人の深淵を覗きたいノーマルさん、どなた様も大歓迎です！是非、ご参加下さい。
+            </p>
+            <p style="text-align:center"><img src='assets/images/event/20191207_m_paradise.jpg' alt='m_paradise_event'/></p>
+            <br>
+            <p class="event_description">
               <span class="event_date">!!! 12/21(土) イリヤ BIRTHDAY EVENT 開催!!!</span><br>
               今年もこの季節が来たよ♡12月と言えば、イリヤのバースデーだよね？？1年の締めくくりに一緒に大騒ぎしよー！！2019年の日頃の御愛顧に感謝してお尻大解放祭りだよ♡12/21待ってるね！！
             </p>
-            <p style="text-align:center"><img src='assets/images/event/20191221_iriya_bd.jpg' alt='iriya_bd_event'/></p> -->
+            <p style="text-align:center"><img src='assets/images/event/20191221_iriya_bd.jpg' alt='iriya_bd_event'/></p>
             <!-- <p style="text-align:center"><img src='assets/images/event/20191026_zakuro_bd.jpg' alt='zakuro_event'/></p> -->
-            <!-- <p style="text-align:center"><img src='assets/images/event/20200321_panst_event.jpg' alt='panst_event'/></p> -->
             <!-- <p style="color:#fff; font-size:2em; text-align:center">随時更新予定！</p> -->
-            <p style="text-align:center"><img src='assets/images/event/20200724-25_misaki_bd.jpg' alt='2020_misaki_db_event'/></p>
             <!-- <p style="text-align:center"><img src='assets/images/event/20190710_misaki_db.jpg' alt='misaki_birthday_event'/></p> -->
             <!-- <p style="text-align:center"><img src='assets/images/event/rainy_day_event.jpg' alt='rainy_day_event'/></p> -->
             <!-- <p style="text-align:center"><img src='assets/images/event/20190406_sumire_01.jpg' alt='sumire_event'/></p>
             <p style="text-align:center"><img src='assets/images/event/20190406_sumire_02.jpg' alt='sumire_event'/></p>
             <br>
-            <p style="color:#ffffff; font-size:1.5em; text-align:center">★12月より新人のトランジスタグラマーな人懐こい可愛い女の子、ロキちゃんが入店します！</p>
+            <!-- <p style="color:#ffffff; font-size:1.5em; text-align:center">★12月より新人のトランジスタグラマーな人懐こい可愛い女の子、ロキちゃんが入店します！</p>
             <p style="text-align:center"><img src='assets/images/staff_original/roki.JPG' alt='roki'/></p> -->
 
             <!-- もともとのサンプルコード -->
