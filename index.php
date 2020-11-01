@@ -4,7 +4,15 @@ error_reporting(E_ALL);
 ?>
 <!DOCTYPE html>
 <html lang='ja' dir='ltr'>
-  <head>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+
+    <meta property="og:title" content="FetishBar BR" />
+    <meta property="og:url" content="https://www.fetishbar-br.com/" />
+    <meta property="og:image" content="https://www.fetishbar-br.com/assets/images/background_logo.png" />
+    <meta property="og:description" content="大阪･十三(じゅうそう)にあるSM&FetishBar「BR(ビーアール)」。当店では落ち着いた雰囲気の中で非日常的な会話と交流ができるBarをコンセプトとしております。様々な嗜好を持つ個性豊かで魅力溢れる女性スタッフが皆様をお待ちしております。初心者の方や女性お一人様でのご来店も大歓迎です。電話番号06-6885-9997" />
+    <meta property="og:type" content="FetishBarBRホームページ" />
+    <meta property="og:site_name" content="FetishBarBRホームページ" />
+
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -102,7 +110,7 @@ error_reporting(E_ALL);
       </nav>
       <section class='ios-click home-section home-fade home-full-height' id='home'>
         <div class='hero-slider'>
-          <ul class='slides'>
+          <ul class='slides'>   
             <li class='bg-dark-30 bg-dark shop-page-header' style='background-image:url(&quot;assets/images/background_logo.png&quot;);'>
               <!-- <div class='titan-caption'>
                 <div class='caption-content'>
@@ -125,6 +133,10 @@ error_reporting(E_ALL);
       </section>
       <div class='main'>
         <section id='concept' class='ios-click module module-video bckimg-left' data-background='assets/images/img_02.png'>
+
+          <!--modal-->
+          <?php include 'modal.html' ?>
+
           <div class='container'>
             <div class='row'>
               <div class='col-sm-6 col-sm-offset-3'>
@@ -250,20 +262,28 @@ error_reporting(E_ALL);
                   <h4 class='shop-item-title font-alt'>弓月</h4>
                 </div>
               </div>
-              <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
+              <!-- <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
                 <div class='shop-item'>
                   <div class='shop-item-image'><img src='assets/images/roki.jpg' alt='roki'/>
-                    <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
+                    <div class='shop-item-detail'></div>
                   </div>
                   <h4 class='shop-item-title font-alt'>ロキ</h4>
                 </div>
-              </div>
-              <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
+              </div> -->
+              <div id='mikaeru' class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
                 <div class='shop-item'>
                   <div class='shop-item-image'><img src='assets/images/mikaeru.jpg' alt='mikaeru'/>
                     <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
                   </div>
                   <h4 class='shop-item-title font-alt'>ミカエル</h4>
+                </div>
+              </div>
+              <div id='hisoka' class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
+                <div class='shop-item'><span class='new'><img src='assets/images/new.png' alt='new'/></span>
+                  <div class='shop-item-image'><img src='assets/images/hisoka.jpg' alt='hisoka'/>
+                    <div class='shop-item-detail'></div>
+                  </div>
+                  <h4 class='shop-item-title font-alt'>密(ひそか)</h4>
                 </div>
               </div>
               <!-- <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
@@ -402,15 +422,28 @@ error_reporting(E_ALL);
                 <h2 class='module-title-adj'>EVENT</h2>
               </div>
             </div>
+            <!-- <p style="color:#fff; font-size:2em; text-align:center">随時更新予定！</p> -->
             <!-- <p class="event_description">
               <span class="event_date">!!! 12/21(土) イリヤ BIRTHDAY EVENT 開催!!!</span><br>
               今年もこの季節が来たよ♡12月と言えば、イリヤのバースデーだよね？？1年の締めくくりに一緒に大騒ぎしよー！！2019年の日頃の御愛顧に感謝してお尻大解放祭りだよ♡12/21待ってるね！！
+            </p> -->
+            <!-- <p style="text-align:center"><img src='assets/images/event/20201024_zakuro_bd.jpg' alt='zakuro_bd_event'/></p>
+            <br><hr><br> -->
+            <p style="text-align:center"><img src='assets/images/event/champagne_event_original.jpg' alt='champagne_event'/></p>
+            <p class="event_description">
+            <span class="event_date">！！シャンパンイベント開催中！！</span><br>
+            シャンパンがセットになったお得なイベントを開催します！！コロナに負けない！！<br>
+            <br>
+            通常→セット料金1時間4千円ドリンク1杯サービス<br>
+            シャンパンセット価格→セット1時間1万円ドリンク1杯シャンパン1本込み<br>
+            <br>
+            となっております！！<br>
+            この機会に是非！！<br>
             </p>
-            <p style="text-align:center"><img src='assets/images/event/20191221_iriya_bd.jpg' alt='iriya_bd_event'/></p> -->
+            <!-- <p style="text-align:center"><img src='assets/images/event/20191221_iriya_bd.jpg' alt='iriya_bd_event'/></p> -->
             <!-- <p style="text-align:center"><img src='assets/images/event/20191026_zakuro_bd.jpg' alt='zakuro_event'/></p> -->
             <!-- <p style="text-align:center"><img src='assets/images/event/20200321_panst_event.jpg' alt='panst_event'/></p> -->
-            <!-- <p style="color:#fff; font-size:2em; text-align:center">随時更新予定！</p> -->
-            <p style="text-align:center"><img src='assets/images/event/20200724-25_misaki_bd.jpg' alt='2020_misaki_db_event'/></p>
+            <!-- <p style="text-align:center"><img src='assets/images/event/20200724-25_misaki_bd.jpg' alt='2020_misaki_db_event'/></p> -->
             <!-- <p style="text-align:center"><img src='assets/images/event/20190710_misaki_db.jpg' alt='misaki_birthday_event'/></p> -->
             <!-- <p style="text-align:center"><img src='assets/images/event/rainy_day_event.jpg' alt='rainy_day_event'/></p> -->
             <!-- <p style="text-align:center"><img src='assets/images/event/20190406_sumire_01.jpg' alt='sumire_event'/></p>
