@@ -1,9 +1,7 @@
 $(function(){
     scrolltop();
     modal();
-    setTimeout('msg_float()'); //アニメーションを実行
-    jump_to_event();
-    
+    setTimeout('msg_float()'); //アニメーションを実行    
 });
 
 function scrolltop() {

@@ -1,0 +1,3 @@
+サーバーホスト：ssh.gmoserver.jp
+ユーザー名：sd0086171@gmoserver.jp
+パスフレーズ：EJ7aUHnky#rECkMiPMjL

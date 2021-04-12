@@ -235,6 +235,8 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             }
         });
 
+        // $(document).click(function() {　$('.navbar-collapse.in').hide();　});
+
 
         /* ---------------------------------------------- /*
          * Video popup, Gallery
@@ -351,9 +353,9 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
          * Youtube video background
          /* ---------------------------------------------- */
 
-        $(function(){
-            $(".video-player").mb_YTPlayer();
-        });
+        // $(function(){
+        //     $(".video-player").mb_YTPlayer();
+        // });
 
         $('#video-play').click(function(event) {
             event.preventDefault();

@@ -112,13 +112,6 @@ error_reporting(E_ALL);
         <div class='hero-slider'>
           <ul class='slides'>   
             <li class='bg-dark-30 bg-dark shop-page-header' style='background-image:url(&quot;assets/images/background_logo.png&quot;);'>
-              <!-- <div class='titan-caption'>
-                <div class='caption-content'>
-                  <div class='font-alt mb-30 titan-title-size-1'>This is Titan</div>
-                  <div class='font-alt mb-30 titan-title-size-4'> Summer 2017</div>
-                  <div class='font-alt mb-40 titan-title-size-1'>Your online fashion destination</div><a class='section-scroll btn btn-border-w btn-round' href='#latest'>Learn More</a>
-                </div>
-              </div> -->
             </li>
             <!-- <li class='bg-dark-30 bg-dark shop-page-header' style='background-image:url(&quot;assets/images/shop/slider3.png&quot;);'>
               <div class='titan-caption'>
@@ -132,10 +125,10 @@ error_reporting(E_ALL);
         </div>
       </section>
       <div class='main'>
+        <!-- Concept Section -->
         <section id='concept' class='ios-click module module-video bckimg-left' data-background='assets/images/img_02.png'>
-
           <!--modal-->
-          <?php include 'modal.html' ?>
+          <?php include './include/modal.html' ?>
 
           <div class='container'>
             <div class='row'>
@@ -155,6 +148,7 @@ error_reporting(E_ALL);
           </div>
           <div class='video-player' data-property='{videoURL:'https://www.youtube.com/watch?v=EMy5krGcoOU', containment:'.module-video', startAt:0, mute:true, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}'></div>
         </section>
+        <!-- System Section -->
         <section id='system' class='ios-click module module-video bg-dark-30 bckimg-right' data-background='assets/images/img_04.png'>
           <div class='container'>
             <div class='row'>
@@ -182,139 +176,11 @@ error_reporting(E_ALL);
           </div>
           <div class='video-player' data-property='{videoURL:'https://www.youtube.com/watch?v=EMy5krGcoOU', containment:'.module-video', startAt:0, mute:true, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}'></div>
         </section>
-        <section id='staff' class='ios-click module-small'>
-          <div class='container'>
-            <div class='row'>
-              <div class='col-sm-6 col-sm-offset-3'>
-                <h2 class='module-title-adj'>STAFF</h2>
-              </div>
-            </div>
-            <div class='row multi-columns-row'>
-              <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
-                <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/misaki.jpg' alt='misaki'/>
-                    <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
-                  </div>
-                  <h4 class='shop-item-title font-alt'>美咲</h4>
-                </div>
-              </div>
-              <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
-                <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/iriya.jpg' alt='iriya'/>
-                    <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
-                  </div>
-                  <h4 class='shop-item-title font-alt'>イリヤ</h4>
-                </div>
-              </div>
-              <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
-                <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/kana.jpg' alt='kana'/>
-                    <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
-                  </div>
-                  <h4 class='shop-item-title font-alt'>カナ</h4>
-                </div>
-              </div>
-              <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
-                <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/zakuro.jpg' alt='zakuro'/>
-                    <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
-                  </div>
-                  <h4 class='shop-item-title font-alt'>柘榴</h4>
-                </div>
-              </div>
-              <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
-                <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/kalma.jpg' alt='kalma'/>
-                    <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
-                  </div>
-                  <h4 class='shop-item-title font-alt'>カーマ</h4>
-                </div>
-              </div>
-              <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
-                <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/nonoka.jpg' alt='nonoka'/>
-                    <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
-                  </div>
-                  <h4 class='shop-item-title font-alt'>ののか</h4>
-                </div>
-              </div>
-              <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
-                <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/kotomi.jpg' alt='kotomi'/>
-                    <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
-                  </div>
-                  <h4 class='shop-item-title font-alt'>ことみ</h4>
-                </div>
-              </div>
-              <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
-                <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/hime.jpg' alt='yuzuki'/>
-                    <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
-                  </div>
-                  <h4 class='shop-item-title font-alt'>ヒメ</h4>
-                </div>
-              </div>
-              <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
-                <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/yuzuki.jpg' alt='yuzuki'/>
-                    <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
-                  </div>
-                  <h4 class='shop-item-title font-alt'>弓月</h4>
-                </div>
-              </div>
-              <!-- <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
-                <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/roki.jpg' alt='roki'/>
-                    <div class='shop-item-detail'></div>
-                  </div>
-                  <h4 class='shop-item-title font-alt'>ロキ</h4>
-                </div>
-              </div> -->
-              <div id='mikaeru' class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
-                <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/mikaeru.jpg' alt='mikaeru'/>
-                    <div class='shop-item-detail'><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --></div>
-                  </div>
-                  <h4 class='shop-item-title font-alt'>ミカエル</h4>
-                </div>
-              </div>
-              <div id='hisoka' class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
-                <div class='shop-item'><span class='new'><img src='assets/images/new.png' alt='new'/></span>
-                  <div class='shop-item-image'><img src='assets/images/hisoka.jpg' alt='hisoka'/>
-                    <div class='shop-item-detail'></div>
-                  </div>
-                  <h4 class='shop-item-title font-alt'>密(ひそか)</h4>
-                </div>
-              </div>
-              <!-- <div class='col-xs-6 col-sm-6 col-md-3 col-lg-3'>
-                <div class='shop-item'>
-                  <div class='shop-item-image'><img src='assets/images/shop/product-14.jpg' alt='Cold Garb'/>
-                    <div class='shop-item-detail'> --><!-- <a class='btn btn-round btn-b'><span class='icon-basket'>Add To Cart</span></a> --><!-- </div>
-                  </div>
-                  <h4 class='shop-item-title font-alt'><a href='#'>Girl_08(20)</a></h4>T170
-                </div>
-              </div> -->
-            </div>
-            <!-- <div class='row mt-30'>
-              <div class='col-sm-12 align-center'><a class='btn btn-b btn-round' href='#'>See all Girs</a></div>
-            </div> -->
-          </div>
-        </section>
-        <section id='schedule' class='ios-click module module-video bg-dark-30' data-background=''>
-          <div class='container'>
-            <div class='row'>
-              <div class='col-sm-6 col-sm-offset-3'>
-                <h2 class='module-title-adj-sche'>SCHEDULE</h2>
-              </div>
-              <div class='col-sm-6'>
-                <table class='table table-bordered table-responsive col-sm-offset-6'>                  
-                  <?php include 'shift.html' ?>
-                </table>
-              </div>
-            </div>
-          </div>
-          <div class='video-player' data-property='{videoURL:'https://www.youtube.com/watch?v=EMy5krGcoOU', containment:'.module-video', startAt:0, mute:true, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}'></div>
-        </section>
+        <!-- Staff Section -->
+        <?php include './include/staff.html' ?>
+        <!-- Schedule Section -->
+        <?php include './include/schedule.html' ?>
+        <!-- SNS Section -->
         <section id='SNS' class='ios-click module'>
           <div class='container'>
             <div class='row'>
@@ -326,7 +192,8 @@ error_reporting(E_ALL);
             <div class='row'>
               <img id='twitter_logo' src='assets/images/twitter.png' alt='twitter_logo'/>
               <div id='twitter'>
-                <a class='twitter-timeline' data-height='600' data-border-color='red' href='https://twitter.com/13fetishbar?ref_src=twsrc%5Etfw' data-tweet-limit=''>Tweets by 13fetishbar</a> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>
+                <!-- <a class='twitter-timeline' data-height='600' data-border-color='red' href='https://twitter.com/13fetishbar?ref_src=twsrc%5Etfw' data-tweet-limit=''>Tweets by 13fetishbar</a> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script> -->
+                <a class="twitter-timeline"  data-height='600' data-border-color='red' href="https://twitter.com/13fetishbar?ref_src=twsrc%5Etfw">Tweets by 13fetishbar</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
               </div>
             </div>
             <!-- Instagram部分 20190228 一時コメントアウト-->
@@ -415,60 +282,8 @@ error_reporting(E_ALL);
           </div>
         </section>
         <hr class='divider-w'>
-        <section id='event' class='ios-click module bg-dark-30' id='news'>
-          <div class='container'>
-            <div class='row'>
-              <div class='col-sm-6 col-sm-offset-3'>
-                <h2 class='module-title-adj'>EVENT</h2>
-              </div>
-            </div>
-            <!-- <p style="color:#fff; font-size:2em; text-align:center">随時更新予定！</p> -->
-            <!-- <p class="event_description">
-              <span class="event_date">!!! 12/21(土) イリヤ BIRTHDAY EVENT 開催!!!</span><br>
-              今年もこの季節が来たよ♡12月と言えば、イリヤのバースデーだよね？？1年の締めくくりに一緒に大騒ぎしよー！！2019年の日頃の御愛顧に感謝してお尻大解放祭りだよ♡12/21待ってるね！！
-            </p> -->
-            <!-- <p style="text-align:center"><img src='assets/images/event/20201024_zakuro_bd.jpg' alt='zakuro_bd_event'/></p>
-            <br><hr><br> -->
-            <p style="text-align:center"><img src='assets/images/event/champagne_event_original.jpg' alt='champagne_event'/></p>
-            <p class="event_description">
-            <span class="event_date">！！シャンパンイベント開催中！！</span><br>
-            シャンパンがセットになったお得なイベントを開催します！！コロナに負けない！！<br>
-            <br>
-            通常→セット料金1時間4千円ドリンク1杯サービス<br>
-            シャンパンセット価格→セット1時間1万円ドリンク1杯シャンパン1本込み<br>
-            <br>
-            となっております！！<br>
-            この機会に是非！！<br>
-            </p>
-            <!-- <p style="text-align:center"><img src='assets/images/event/20191221_iriya_bd.jpg' alt='iriya_bd_event'/></p> -->
-            <!-- <p style="text-align:center"><img src='assets/images/event/20191026_zakuro_bd.jpg' alt='zakuro_event'/></p> -->
-            <!-- <p style="text-align:center"><img src='assets/images/event/20200321_panst_event.jpg' alt='panst_event'/></p> -->
-            <!-- <p style="text-align:center"><img src='assets/images/event/20200724-25_misaki_bd.jpg' alt='2020_misaki_db_event'/></p> -->
-            <!-- <p style="text-align:center"><img src='assets/images/event/20190710_misaki_db.jpg' alt='misaki_birthday_event'/></p> -->
-            <!-- <p style="text-align:center"><img src='assets/images/event/rainy_day_event.jpg' alt='rainy_day_event'/></p> -->
-            <!-- <p style="text-align:center"><img src='assets/images/event/20190406_sumire_01.jpg' alt='sumire_event'/></p>
-            <p style="text-align:center"><img src='assets/images/event/20190406_sumire_02.jpg' alt='sumire_event'/></p>
-            <br>
-            <p style="color:#ffffff; font-size:1.5em; text-align:center">★12月より新人のトランジスタグラマーな人懐こい可愛い女の子、ロキちゃんが入店します！</p>
-            <p style="text-align:center"><img src='assets/images/staff_original/roki.JPG' alt='roki'/></p> -->
-
-            <!-- もともとのサンプルコード -->
-            <!-- <div class='row multi-columns-row post-columns wo-border'>
-              <div class='col-sm-6 col-md-4 col-lg-4'>
-                <div class='post mb-40'>
-                  <div class='post-header font-alt'>
-                    <h2 class='post-title custom-hover'><a href='#'>★Girl_01 誕生日パーティー 7/1!!</a></h2>
-                  </div>
-                  <div class='post-entry'>
-                    <p>Girl_01の誕生日パーティーを7/1に開催します。ドレスコード有り：男性スーツ、女性ドレス</p>
-                  </div>
-                  <div class='post-more'><a class='more-link' href='#'>Read more</a></div>
-                </div>
-              </div>              
-            </div> -->
-
-          </div>
-        </section>
+        <!-- Event Section -->
+        <?php include './include/event.html' ?>
         <hr class='divider-w'>
         <section id='access' class='ios-click module-small'>
           <div class='container'>
@@ -478,7 +293,7 @@ error_reporting(E_ALL);
                 <h2 class='mod_title'>ACCESS</h2>
               </div>
               <div class='col-sm-12 mb-20 font-custom'>
-                <p>住所：〒532-0024 大阪府大阪市淀川区十三本町２丁目１−１７<br>
+                <p>住所：〒532-0024 大阪府大阪市淀川区十三本町２丁目１−１７ ナポリ十三ビル4F<br>
                   電話：06-6885-9997</p>
               </div>
               <div class='col-md-12 col-sm-6'>
@@ -542,7 +357,7 @@ error_reporting(E_ALL);
               <div class='col-md-12'>
                 <div class='widget'>
                   <h5 class='widget-title font-alt'>SM & Fetish Bar BR</h5>
-                  <span>Address:  Jyuso Motomachi 2-1-17, Yodogawa, Osaka 532-0024</span><br>
+                  <span>Address:  Jyuso Motomachi 2-1-17 Napoli BLDGS 4F, Yodogawa, Osaka 532-0024</span><br>
                   <span>Phone: 06-6885-9997 (From outside of Japan: +81 6 6885 9997)</span>
                   <!-- <p>Email:<a href='#'>somecompany@example.com</a></p> -->
                 </div>

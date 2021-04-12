@@ -3266,6 +3266,13 @@ Google map
     font-weight:bold;
     color: yellow;
   }
+  .jumpmark ::before{
+    display: block;
+    height: 6rem;
+    margin-top: -6rem;
+    content: "";
+  }
+
 }
 
 @media only screen and (max-width: 480px) {
