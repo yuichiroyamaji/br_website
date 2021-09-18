@@ -468,6 +468,101 @@ a,
 .article{
   font-size:1.3em;
 }
+
+/*--------------------------------------------------------------
+  Modal (Single Event)
+--------------------------------------------------------------*/
+.modal{
+  display: none;
+  position: fixed;
+  top: 0;
+  color:red;
+}
+.modal__bg{
+  background: rgba(0,0,0,0.6);
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
+.modal__content{
+  background: rgb(153 3 3);
+  left: 50%;
+  padding: 0px 20px 10px 20px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  /*width: 50%;*/
+}
+.modal__title{
+  text-align: center;
+  margin-bottom:30px;
+}
+.modal img{
+  max-width: 60%;
+  height: auto;
+  margin-left: 10%;
+}
+.close_btn{
+  height:60px;
+  width: 60px;
+  float: right;
+  margin: 5px 0 5px 0;
+}
+.see-details-box{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.see-details{
+  border: 1px solid;
+  padding: 5px;
+}
+.new{
+  position: absolute;
+  top:40%;
+  z-index: 1;
+}
+/*--------------------------------------------------------------
+  Modal (Multiple Events)
+--------------------------------------------------------------*/
+.modal{
+  text-align: center;
+}
+.modal__content table{
+  margin-top: 10%;
+}
+.modal__content table tr{
+  margin: 20%;
+  border:1px solid #fff;
+}
+.modal__content table td{
+  padding: 2%;
+}
+.img_col{
+  width:30%;
+}
+.img_col img{
+  max-height: 200px;
+}
+.title_col{
+  font-size: 2vw;
+  word-wrap: break-word;
+}
+.check_shift{
+  display: inline-block;
+  transform: rotate(-5deg);
+  font-size: 0.6em;
+  color: aqua;
+  left: 10px;
+}
+.click_col{
+  width: 23%;
+}
+.third_row{
+  font-size: 1.5vw;
+  color: white;
+}
+
 @media only screen and (max-width: 991px) {
   .mt-sm-0 {
     margin-top: 0 !important;
@@ -2846,107 +2941,21 @@ Google map
   color:yellow;
   margin-left:10px;
 }
+#covid19_related_event{
+  left: 30%;
+}
+#covid19_related_event img{
+  width: 50%;
+}
 .event_description{
-  font-size: 1.2vw;
-  text-align: center;
+  font-size: 1.1vw;
   color:#fff!important;
 }
 .event_date{
-  font-size:2vw;
+  font-size:1.3vw;
   font-weight:bold;
   color: yellow;
 }
-/*--------------------------------------------------------------
-  Modal (Single Event)
---------------------------------------------------------------*/
-.modal{
-  display: none;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  color:red;
-}
-.modal__bg{
-  background: rgba(0,0,0,0.6);
-  height: 100vh;
-  position: absolute;
-  width: 100%;
-}
-.modal__content{
-  background: rgb(153 3 3);
-  left: 50%;
-  padding: 0px 20px 10px 20px;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%,-50%);
-  /*width: 50%;*/
-}
-.modal__title{
-  text-align: center;
-  margin-bottom:30px;
-}
-.close_btn{
-  height:40px;
-  width: 40px;
-  float: right;
-  margin: 5px 0 5px 0;
-}
-.see-details-box{
-  margin-top: 10px;
-  text-align: center;
-  font-size: 20px;
-}
-.see-details{
-  border: 1px solid;
-  padding: 5px;
-}
-.new{
-  position: absolute;
-  top:40%;
-  z-index: 1;
-}
-/*--------------------------------------------------------------
-  Modal (Multiple Events)
---------------------------------------------------------------*/
-.modal{
-  text-align: center;
-}
-.modal__content table{
-  margin-top: 10%;
-}
-.modal__content table tr{
-  margin: 20%;
-  border:1px solid #fff;
-}
-.modal__content table td{
-  padding: 2%;
-}
-.img_col{
-  width:30%;
-}
-.img_col img{
-  max-height: 200px;
-}
-.title_col{    
-  font-size: 2vw;
-  word-wrap: break-word;
-}
-.check_shift{
-  display: inline-block;
-  transform: rotate(-5deg);
-  font-size: 0.6em;
-  color: aqua;
-  left: 10px;
-}
-.click_col{
-  width: 23%;
-}
-.third_row{
-  font-size: 1.5vw;
-  color: white;
-}
-
 /*--------------------------------------------------------------
 	Responsive Styles - Media Queries
 --------------------------------------------------------------*/
@@ -3205,6 +3214,11 @@ Google map
     text-align: center;
     margin-bottom:30px;
   }
+  .modal img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
   .close_btn{
     height:40px;
     width: 40px;
@@ -3256,6 +3270,9 @@ Google map
   /*--------------------------------------------------------------
     Event
   --------------------------------------------------------------*/
+  #covid19_related_event img{
+    width: 100%;
+  }
   .event_description{
     font-size: 3.6vw;
     text-align: left;
