@@ -297,7 +297,8 @@ error_reporting(E_ALL);
                   電話：06-6885-9997</p>
               </div>
               <div class='col-md-12 col-sm-6'>
-                <iframe src='https://www.google.com/maps/d/embed?mid=1IJ6QC3mXesuo-JdXISZNTwmoHX7IkaDu' width='100%' height='480'></iframe>
+                <!-- <iframe src='https://www.google.com/maps/d/embed?mid=1IJ6QC3mXesuo-JdXISZNTwmoHX7IkaDu' width='100%' height='480'></iframe> -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d689.4103866068536!2d135.48149097793444!3d34.720135355953154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x6000e5d1fd5ccf75%3A0x78fcd718d710c4d1!2z6KW_5pS55pyt5Y-j44CB5aSn6Ziq5bqc5aSn6Ziq5biC5reA5bed5Yy6!3m2!1d34.7198991!2d135.4822303!4m5!1s0x6000e5ce40a9c4d3%3A0x5680901e9d82ef28!2z44CSNTMyLTAwMjQg5aSn6Ziq5bqc5aSn6Ziq5biC5reA5bed5Yy65Y2B5LiJ5pys55S677yS5LiB55uu77yR4oiS77yR77yX!3m2!1d34.720608399999996!2d135.4813436!5e0!3m2!1sja!2sjp!4v1633615133514!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
               </div>
             </div>
             <!-- <div class='row client'>
