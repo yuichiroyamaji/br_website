@@ -294,7 +294,7 @@ error_reporting(E_ALL);
               </div>
               <div class='col-sm-12 mb-20 font-custom'>
                 <p>住所：〒532-0024 大阪府大阪市淀川区十三本町２丁目１−１７ ナポリ十三ビル4F<br>
-                  電話：06-6885-9997</p>
+                  電話：070-8995-9997</p>
               </div>
               <div class='col-md-12 col-sm-6'>
                 <!-- <iframe src='https://www.google.com/maps/d/embed?mid=1IJ6QC3mXesuo-JdXISZNTwmoHX7IkaDu' width='100%' height='480'></iframe> -->
@@ -359,7 +359,7 @@ error_reporting(E_ALL);
                 <div class='widget'>
                   <h5 class='widget-title font-alt'>SM & Fetish Bar BR</h5>
                   <span>Address:  Jyuso Motomachi 2-1-17 Napoli BLDGS 4F, Yodogawa, Osaka 532-0024</span><br>
-                  <span>Phone: 06-6885-9997 (From outside of Japan: +81 6 6885 9997)</span>
+                  <span>Phone: 070-8995-9997 (From outside of Japan: +81 70 8995 9997)</span>
                   <!-- <p>Email:<a href='#'>somecompany@example.com</a></p> -->
                 </div>
               </div>

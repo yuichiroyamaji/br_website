@@ -65,3 +65,64 @@
  in /var/www/html/index.php on line 208
 [04-May-2022 07:11:24 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
  in /var/www/html/index.php on line 208
+[01-Jun-2022 12:29:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_bz2.dll' (tried: C:\xampp\php\ext/php_bz2.dll (C:\xampp\php\ext/php_bz2.dll: cannot open shared object file: No such file or directory), C:\xampp\php\ext/php_bz2.dll.so (C:\xampp\php\ext/php_bz2.dll.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Jun-2022 12:29:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_curl.dll' (tried: C:\xampp\php\ext/php_curl.dll (C:\xampp\php\ext/php_curl.dll: cannot open shared object file: No such file or directory), C:\xampp\php\ext/php_curl.dll.so (C:\xampp\php\ext/php_curl.dll.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Jun-2022 12:29:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_fileinfo.dll' (tried: C:\xampp\php\ext/php_fileinfo.dll (C:\xampp\php\ext/php_fileinfo.dll: cannot open shared object file: No such file or directory), C:\xampp\php\ext/php_fileinfo.dll.so (C:\xampp\php\ext/php_fileinfo.dll.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Jun-2022 12:29:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd2.dll' (tried: C:\xampp\php\ext/php_gd2.dll (C:\xampp\php\ext/php_gd2.dll: cannot open shared object file: No such file or directory), C:\xampp\php\ext/php_gd2.dll.so (C:\xampp\php\ext/php_gd2.dll.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Jun-2022 12:29:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gettext.dll' (tried: C:\xampp\php\ext/php_gettext.dll (C:\xampp\php\ext/php_gettext.dll: cannot open shared object file: No such file or directory), C:\xampp\php\ext/php_gettext.dll.so (C:\xampp\php\ext/php_gettext.dll.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Jun-2022 12:29:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mbstring.dll' (tried: C:\xampp\php\ext/php_mbstring.dll (C:\xampp\php\ext/php_mbstring.dll: cannot open shared object file: No such file or directory), C:\xampp\php\ext/php_mbstring.dll.so (C:\xampp\php\ext/php_mbstring.dll.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Jun-2022 12:29:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_exif.dll' (tried: C:\xampp\php\ext/php_exif.dll (C:\xampp\php\ext/php_exif.dll: cannot open shared object file: No such file or directory), C:\xampp\php\ext/php_exif.dll.so (C:\xampp\php\ext/php_exif.dll.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Jun-2022 12:29:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mysqli.dll' (tried: C:\xampp\php\ext/php_mysqli.dll (C:\xampp\php\ext/php_mysqli.dll: cannot open shared object file: No such file or directory), C:\xampp\php\ext/php_mysqli.dll.so (C:\xampp\php\ext/php_mysqli.dll.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Jun-2022 12:29:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_mysql.dll' (tried: C:\xampp\php\ext/php_pdo_mysql.dll (C:\xampp\php\ext/php_pdo_mysql.dll: cannot open shared object file: No such file or directory), C:\xampp\php\ext/php_pdo_mysql.dll.so (C:\xampp\php\ext/php_pdo_mysql.dll.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Jun-2022 12:29:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_pgsql.dll' (tried: C:\xampp\php\ext/php_pdo_pgsql.dll (C:\xampp\php\ext/php_pdo_pgsql.dll: cannot open shared object file: No such file or directory), C:\xampp\php\ext/php_pdo_pgsql.dll.so (C:\xampp\php\ext/php_pdo_pgsql.dll.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Jun-2022 12:29:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlite.dll' (tried: C:\xampp\php\ext/php_pdo_sqlite.dll (C:\xampp\php\ext/php_pdo_sqlite.dll: cannot open shared object file: No such file or directory), C:\xampp\php\ext/php_pdo_sqlite.dll.so (C:\xampp\php\ext/php_pdo_sqlite.dll.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Jun-2022 12:29:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pgsql.dll' (tried: C:\xampp\php\ext/php_pgsql.dll (C:\xampp\php\ext/php_pgsql.dll: cannot open shared object file: No such file or directory), C:\xampp\php\ext/php_pgsql.dll.so (C:\xampp\php\ext/php_pgsql.dll.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Jun-2022 12:29:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\xampp\php\ext/php_openssl.dll (C:\xampp\php\ext/php_openssl.dll: cannot open shared object file: No such file or directory), C:\xampp\php\ext/php_openssl.dll.so (C:\xampp\php\ext/php_openssl.dll.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Jun-2022 12:29:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium.so' (tried: C:\xampp\php\ext/sodium.so (C:\xampp\php\ext/sodium.so: cannot open shared object file: No such file or directory), C:\xampp\php\ext/sodium.so.so (C:\xampp\php\ext/sodium.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[01-Jun-2022 21:29:04 Asia/Tokyo] PHP Warning:  Cannot open 'C:\xampp\php\extras\browscap.ini' for reading in Unknown on line 0
+[01-Jun-2022 21:31:19 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:40:52 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:41:41 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:45:01 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:45:28 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:46:07 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:47:06 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:47:53 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:48:30 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:50:39 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:51:37 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:52:22 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:52:23 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:52:30 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:52:47 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:53:26 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:53:53 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:54:09 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:54:34 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:54:46 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:54:57 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:55:47 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
+[01-Jun-2022 21:56:24 Asia/Tokyo] PHP Warning:  file_get_contents(https://api.instagram.com/v1/users/self/media/recent/?access_token=7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /var/www/html/index.php on line 208
