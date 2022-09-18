@@ -522,6 +522,15 @@ a,
   top:40%;
   z-index: 1;
 }
+.twitter-logo{
+  position: absolute;
+  top:50%;
+  left: 70%;
+  z-index: 1;
+  border-radius: 50%;
+  width: 20%;
+  background-color: #fff;
+}
 /*--------------------------------------------------------------
   Modal (Multiple Events)
 --------------------------------------------------------------*/
@@ -2763,8 +2772,14 @@ Google map
   font-weight: 400;
   font-size: 18px;
   color: #fff;
+  text-decoration: none;
   margin: 15px 0 5px;  
   font-family: "HG正楷書体-PRO", sans-serif;
+}
+
+.twitter-linked{
+  color: yellow;
+  text-decoration: underline;
 }
 
 /* Shop item hover */
