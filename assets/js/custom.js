@@ -1,6 +1,6 @@
 $(function(){
     scrolltop();
-    modal();
+    // modal();
     setTimeout('msg_float()'); //アニメーションを実行    
 });
 
