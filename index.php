@@ -128,7 +128,7 @@ error_reporting(E_ALL);
         <!-- Concept Section -->
         <section id='concept' class='ios-click module module-video bckimg-left' data-background='assets/images/img_02.png'>
           <!--modal-->
-          <?php include './include/modal.html' ?>
+          <?php //include './include/modal.html' ?>
 
           <div class='container'>
             <div class='row'>
@@ -156,14 +156,18 @@ error_reporting(E_ALL);
                 <h2 class='mod_title' lang='en'>SYSTEM</h2>
                 <table class='sys-table'>
                   <caption class='table-caption'><月～土曜></caption>
-                  <tr><td>男性</td><td>￥4,000/1時間（1ドリンク付き)</td></tr>
-                  <tr><td>女性</td><td>￥2,000/フリータイム（1ドリンク付き)</td></tr>
+                  <tr><td>男性</td><td>初回セット : ￥5,000/1時間 (1ドリンク付き)</td></tr>
+                  <tr><td></td><td>2セット目~ : ￥4,000/1時間 (￥2,000/30分)</td></tr>
+                  <tr><td></td><td>飲み放題 : ￥8,000/1時間</td></tr>
+                  <tr><td>女性</td><td>フリータイム : ￥4,000/∞（1ドリンク付き)</td></tr>
+                  <tr><td></td><td>飲み放題 : ￥7,000/1時間</td></tr>
                 </table>
-                <p>※男性のお客様において、1時間以降は￥2,000/30分単位でご精算頂けます。</p>
+                <!-- <p>※男性のお客様において、1時間以降は￥2,000/30分単位でご精算頂けます。</p> -->
                 <table class='sys-table'>
                   <caption class='table-caption'><日曜></caption>
-                  <tr><td>男性</td><td>￥2,000/1時間</td></tr>
-                  <tr><td>女性</td><td>￥1,000/フリータイム</td></tr>
+                  <tr><td>男性</td><td>初回セット : ￥3,000/1時間</td></tr>
+                  <tr><td></td><td>2セット目~ : ￥2,000/1時間 (￥1,000/30分)</td></tr>
+                  <tr><td>女性</td><td>フリータイム : ￥3,000/∞</td></tr>
                 </table>
                 <p>※日曜のみセット料金にドリンクのサービスは付いておりません。</p>
                 <table class='sys-table'>
