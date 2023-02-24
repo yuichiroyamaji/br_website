@@ -1202,17 +1202,17 @@ General Styles - FlexSlider
   margin: 0;
 }
 
-.flex-direction-nav .flex-prev {
+/* .flex-direction-nav .flex-prev {
   opacity: 0;
   left: 0;
   cursor: url(../images/prev-light.png), e-resize;
-}
+} */
 
-.flex-direction-nav .flex-next {
+/* .flex-direction-nav .flex-next {
   opacity: 0;
   right: 0;
   cursor: url(../images/next-light.png), e-resize;
-}
+} */
 
 .flex-control-nav {
   position: absolute;
