@@ -197,7 +197,17 @@ error_reporting(E_ALL);
               <img id='twitter_logo' src='assets/images/twitter.png' alt='twitter_logo'/>
               <div id='twitter'>
                 <!-- <a class='twitter-timeline' data-height='600' data-border-color='red' href='https://twitter.com/13fetishbar?ref_src=twsrc%5Etfw' data-tweet-limit=''>Tweets by 13fetishbar</a> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script> -->
-                <a class="twitter-timeline"  data-height='600' data-border-color='red' href="https://twitter.com/13fetishbar?ref_src=twsrc%5Etfw">Tweets by 13fetishbar</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <div style="font-size:1.1em;">
+                  ※2023/7/2頃よりTwitterが始めた閲覧制限の不具合により、現在Twitterのタイムラインが表示できません。
+                  解消時期不明のため、Twitterの投稿を閲覧の際にはお手数ですが以下「Twitterで表示」ボタンよりBRの公式アカウントへアクセスください。
+                </div>
+                <div class="twitter-frame">
+                  <a class="twitter-timeline" data-height='600' data-border-color='red' href="https://twitter.com/13fetishbar?ref_src=twsrc%5Etfw">Tweets by 13fetishbar</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div style="font-size:1.1em;margin:10px 0 0 0;">
+                  Tweetする場合はこちら↓↓↓
+                </div>
+                <a href="https://twitter.com/intent/tweet?screen_name=13fetishbar&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @13fetishbar</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
               </div>
             </div>
             <!-- Instagram部分 20190228 一時コメントアウト-->
