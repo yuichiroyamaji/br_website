@@ -128,7 +128,7 @@ error_reporting(E_ALL);
         <!-- Concept Section -->
         <section id='concept' class='ios-click module module-video bckimg-left' data-background='assets/images/img_02.png'>
           <!--modal-->
-          <?php include './include/modal.html' ?>
+          <?php // include './include/modal.html' ?>
 
           <div class='container'>
             <div class='row'>
@@ -197,10 +197,10 @@ error_reporting(E_ALL);
               <img id='twitter_logo' src='assets/images/twitter.png' alt='twitter_logo'/>
               <div id='twitter'>
                 <!-- <a class='twitter-timeline' data-height='600' data-border-color='red' href='https://twitter.com/13fetishbar?ref_src=twsrc%5Etfw' data-tweet-limit=''>Tweets by 13fetishbar</a> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script> -->
-                <div style="font-size:1.1em;">
-                  ※2023/7/2頃よりTwitterが始めた閲覧制限の不具合により、現在Twitterのタイムラインが表示できません。
+                <!-- <div style="font-size:1.1em;">
+                  ※2023/7/2頃よりTwitterが対応開始した閲覧制限機能の不具合により、現在Twitterのタイムラインが表示できません。
                   解消時期不明のため、Twitterの投稿を閲覧の際にはお手数ですが以下「Twitterで表示」ボタンよりBRの公式アカウントへアクセスください。
-                </div>
+                </div> -->
                 <div class="twitter-frame">
                   <a class="twitter-timeline" data-height='600' data-border-color='red' href="https://twitter.com/13fetishbar?ref_src=twsrc%5Etfw">Tweets by 13fetishbar</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
