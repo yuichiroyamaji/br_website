@@ -128,7 +128,7 @@ error_reporting(E_ALL);
         <!-- Concept Section -->
         <section id='concept' class='ios-click module module-video bckimg-left' data-background='assets/images/img_02.png'>
           <!--modal-->
-          <?php // include './include/modal.html' ?>
+          <?php include './include/modal.html' ?>
 
           <div class='container'>
             <div class='row'>
@@ -194,7 +194,7 @@ error_reporting(E_ALL);
               </div>
             </div>
             <div class='row'>
-              <img id='twitter_logo' src='assets/images/twitter.png' alt='twitter_logo'/>
+              <img id='twitter_logo' src='assets/images/x_logo.jpg' alt='twitter_logo'/>
               <div id='twitter'>
                 <!-- <a class='twitter-timeline' data-height='600' data-border-color='red' href='https://twitter.com/13fetishbar?ref_src=twsrc%5Etfw' data-tweet-limit=''>Tweets by 13fetishbar</a> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script> -->
                 <!-- <div style="font-size:1.1em;">
@@ -204,10 +204,10 @@ error_reporting(E_ALL);
                 <div class="twitter-frame">
                   <a class="twitter-timeline" data-height='600' data-border-color='red' href="https://twitter.com/13fetishbar?ref_src=twsrc%5Etfw">Tweets by 13fetishbar</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
-                <div style="font-size:1.1em;margin:10px 0 0 0;">
+                <!-- <div style="font-size:1.1em;margin:10px 0 0 0;">
                   Tweetする場合はこちら↓↓↓
                 </div>
-                <a href="https://twitter.com/intent/tweet?screen_name=13fetishbar&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @13fetishbar</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a href="https://twitter.com/intent/tweet?screen_name=13fetishbar&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @13fetishbar</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
               </div>
             </div>
             <!-- Instagram部分 20190228 一時コメントアウト-->

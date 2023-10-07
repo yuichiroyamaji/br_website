@@ -529,7 +529,10 @@ a,
   z-index: 1;
   border-radius: 50%;
   width: 20%;
-  background-color: #fff;
+  height:15%;
+  background-image: url(../images/x_logo.jpg);
+  background-position: center;
+  background-size: contain;
 }
 /*--------------------------------------------------------------
   Modal (Multiple Events)
@@ -1020,7 +1023,7 @@ blockquote {
 }
 
 #twitter_logo{
-  width:25%;
+  width:15%;
   margin: 0 0 10px 10px;
 }
 
