@@ -202,7 +202,7 @@ error_reporting(E_ALL);
                   解消時期不明のため、Twitterの投稿を閲覧の際にはお手数ですが以下「Twitterで表示」ボタンよりBRの公式アカウントへアクセスください。
                 </div> -->
                 <div class="twitter-frame">
-                  <a class="twitter-timeline" data-height='600' data-border-color='red' href="https://twitter.com/13fetishbar?ref_src=twsrc%5Etfw">Tweets by 13fetishbar</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  <a class="twitter-timeline" data-theme='dark' data-height='600' data-border-color='red' href="https://twitter.com/13fetishbar?ref_src=twsrc%5Etfw">Tweets by 13fetishbar</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
                 <!-- <div style="font-size:1.1em;margin:10px 0 0 0;">
                   Tweetする場合はこちら↓↓↓
