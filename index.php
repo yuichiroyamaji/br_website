@@ -65,7 +65,7 @@ error_reporting(E_ALL);
     <link href='assets/lib/magnific-popup/dist/magnific-popup.css' rel='stylesheet'>
     <link href='assets/lib/simple-text-rotator/simpletextrotator.css' rel='stylesheet'>
     <!-- Main stylesheet and color file-->
-    <link href='assets/css/style.css' rel='stylesheet'>
+    <link href='assets/css/style_20240901.css' rel='stylesheet'>
     <link id='color-scheme' href='./assets/css/colors/default.css' rel='stylesheet'>
     <!--JavaScripts-->
     <script src='assets/lib/jquery/dist/jquery.js'></script>
@@ -128,7 +128,7 @@ error_reporting(E_ALL);
         <!-- Concept Section -->
         <section id='concept' class='ios-click module module-video bckimg-left' data-background='assets/images/img_02.png'>
           <!--modal-->
-          <?php include './include/modal.html' ?>
+          <?php //include './include/modal.html' ?>
 
           <div class='container'>
             <div class='row'>

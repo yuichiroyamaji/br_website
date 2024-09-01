@@ -2952,6 +2952,13 @@ Google map
 .weekend{
   background-color: #cc3366;
 }
+.new-staff{
+  color: hotpink;
+  font-weight: bold;
+}
+.day-off{
+  color: darkgray;
+}
 .info_font{
   color:#66ffff;
 }
