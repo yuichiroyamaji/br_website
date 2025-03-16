@@ -65,7 +65,7 @@ error_reporting(E_ALL);
     <link href='assets/lib/magnific-popup/dist/magnific-popup.css' rel='stylesheet'>
     <link href='assets/lib/simple-text-rotator/simpletextrotator.css' rel='stylesheet'>
     <!-- Main stylesheet and color file-->
-    <link href='assets/css/style_20240901.css' rel='stylesheet'>
+    <link href='assets/css/style_20250222_01.css' rel='stylesheet'>
     <link id='color-scheme' href='./assets/css/colors/default.css' rel='stylesheet'>
     <!--JavaScripts-->
     <script src='assets/lib/jquery/dist/jquery.js'></script>
@@ -193,22 +193,25 @@ error_reporting(E_ALL);
                 <!-- <div class='module-subtitle font-serif'>The languages only differ in their grammar, their pronunciation and their most common words.</div> -->
               </div>
             </div>
-            <div class='row'>
-              <img id='twitter_logo' src='assets/images/x_logo.jpg' alt='twitter_logo'/>
-              <div id='twitter'>
+            <div>
+              <div id='twitter_revised'>
                 <!-- <a class='twitter-timeline' data-height='600' data-border-color='red' href='https://twitter.com/13fetishbar?ref_src=twsrc%5Etfw' data-tweet-limit=''>Tweets by 13fetishbar</a> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script> -->
-                <!-- <div style="font-size:1.1em;">
-                  ※2023/7/2頃よりTwitterが対応開始した閲覧制限機能の不具合により、現在Twitterのタイムラインが表示できません。
-                  解消時期不明のため、Twitterの投稿を閲覧の際にはお手数ですが以下「Twitterで表示」ボタンよりBRの公式アカウントへアクセスください。
-                </div> -->
-                <div class="twitter-frame">
-                  <a class="twitter-timeline" data-theme='dark' data-height='600' data-border-color='red' href="https://twitter.com/13fetishbar?ref_src=twsrc%5Etfw">Tweets by 13fetishbar</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <div style="font-size:1.1em;">
+                  ※TwitterよりXへ移行後、タイムラインが最新順に表示できなくなったため、以下XのBRアカウントにてご確認ください。
                 </div>
-                <!-- <div style="font-size:1.1em;margin:10px 0 0 0;">
+                <div>
+                  <a href='https://x.com/13fetishbar?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3A13fetishbar%7Ctwcon%5Es2' target="_blank">
+                    <img id='x_capture' src='assets/images/x_capture.png' alt='x_account'/>
+                  </a>
+                </div>
+                <!-- <div class="twitter-frame">
+                  <a class="twitter-timeline" data-theme='dark' data-height='600' data-border-color='red' href="https://twitter.com/13fetishbar?ref_src=twsrc%5Etfw">Tweets by 13fetishbar</a>
+                </div>
+                <div style="font-size:1.1em;margin:10px 0 0 0;">
                   Tweetする場合はこちら↓↓↓
                 </div>
-                <a href="https://twitter.com/intent/tweet?screen_name=13fetishbar&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @13fetishbar</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-              </div>
+                <a href="https://twitter.com/intent/tweet?screen_name=13fetishbar&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @13fetishbar</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div> -->
             </div>
             <!-- Instagram部分 20190228 一時コメントアウト-->
             <!--
@@ -216,33 +219,30 @@ error_reporting(E_ALL);
               <div><img id='instagram-logo' src='assets/images/instagram.jpg' alt='instagram_logo'/></div>
               <div class='owl-carousel text-center' data-items='5' data-pagination='false' data-navigation='false'>
                 <?php
-                  // $access_token = '7628357861.e7c7978.07309a567f8643009a56b86853d1ef14';
-                  $access_token = '7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1';
-                  // $json = file_get_contents('https://api.instagram.com/v1/users/self/media/recent/?access_token='.$access_token.'&count=9');
-                  $json = file_get_contents('https://api.instagram.com/v1/users/self/media/recent/?access_token='.$access_token);
-                  if ($json) {
-                    $json = mb_convert_encoding($json, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
-                    $arr = json_decode($json, true);
-                    $data_arr = $arr['data'];
-                     if (count($data_arr)) {
-                      //dataの数があるだけループ
-                      foreach($data_arr as $data) {
-                        $link = $data['link'];
-                        $img = $data['images']['standard_resolution']['url'];
-                        $likes = $data['likes']['count'];
-                        echo "<div class='inst_wrap'>
-                                <div class='col-sm-12'>
-                                  <div class='inst_thumb'>
-                                    <a href='{$link}'><img src='{$img}' alt=''/></a>
-                                  </div>
-                                </div>
-                                <div class='inst_comment'>
-                                  <p><i class='fa fa-heart' aria-hidden='true'></i>いいね　{$likes}</p>
-                                </div>
-                              </div>";
-                      }
-                    }
-                  }
+                  // $access_token = '7628357861.e7c7978.eb63498f46eb4fc4a7a106cb52e15ec1';
+                  // $json = file_get_contents('https://api.instagram.com/v1/users/self/media/recent/?access_token='.$access_token);
+                  // if ($json) {
+                  //   $json = mb_convert_encoding($json, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
+                  //   $arr = json_decode($json, true);
+                  //   $data_arr = $arr['data'];
+                  //    if (count($data_arr)) {
+                  //     foreach($data_arr as $data) {
+                  //       $link = $data['link'];
+                  //       $img = $data['images']['standard_resolution']['url'];
+                  //       $likes = $data['likes']['count'];
+                  //       echo "<div class='inst_wrap'>
+                  //               <div class='col-sm-12'>
+                  //                 <div class='inst_thumb'>
+                  //                   <a href='{$link}'><img src='{$img}' alt=''/></a>
+                  //                 </div>
+                  //               </div>
+                  //               <div class='inst_comment'>
+                  //                 <p><i class='fa fa-heart' aria-hidden='true'></i>いいね　{$likes}</p>
+                  //               </div>
+                  //             </div>";
+                  //     }
+                  //   }
+                  // }
                 ?>
               </div>
             </div>
@@ -295,10 +295,8 @@ error_reporting(E_ALL);
             </div> -->
           </div>
         </section>
-        <hr class='divider-w'>
         <!-- Event Section -->
         <?php include './include/event.html' ?>
-        <hr class='divider-w'>
         <section id='access' class='ios-click module-small'>
           <div class='container'>
             <div class='row'>
@@ -425,7 +423,6 @@ error_reporting(E_ALL);
             </div>
           </div>
         </div>
-        <hr class='divider-d'>
         <footer class='ios-click footer bg-dark'>
           <div class='container'>
             <div class='row'>

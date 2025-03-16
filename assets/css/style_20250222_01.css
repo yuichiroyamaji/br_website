@@ -1032,6 +1032,13 @@ blockquote {
   margin:0 20px 50px 10px;
 }
 
+#twitter_revised {
+  width: 100%; /* Ensure it takes full width of its container */
+  margin: 0 auto; /* Center the div within its container */
+  padding: 0; /* Remove any padding that might cause overflow */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
 .inst_wrap{
     /*background: #fff;*/
     /*width: 300px;*/
