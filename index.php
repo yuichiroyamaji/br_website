@@ -128,7 +128,7 @@ error_reporting(E_ALL);
         <!-- Concept Section -->
         <section id='concept' class='ios-click module module-video bckimg-left' data-background='assets/images/img_02.png'>
           <!--modal-->
-          <?php include './include/modal.html' ?>
+          <?php // include './include/modal.html' ?>
 
           <div class='container'>
             <div class='row'>
